@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Task</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            width: 100%;
+            max-width: 500px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"] {
+            -moz-appearance: textfield; /* Remove spinners for Firefox */
+        }
+        input[type="text"]::-webkit-outer-spin-button,
+        input[type="text"]::-webkit-inner-spin-button {
+            -webkit-appearance: none; /* Remove spinners for Chrome, Safari, and Opera */
+        }
+        .tag {
+            display: inline-block;
+            background-color: #007bff;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            margin: 5px;
+        }
+        .tag.red { background-color: #dc3545; }
+        .tag.green { background-color: #28a745; }
+        .tag.yellow { background-color: #ffc107; }
+        .tag.blue { background-color: #007bff; }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h2 class="text-center">Task Information</h2>
+    <form action="/taskChosen" method="post" class="mt-4">
+        <div class="form-group">
+            <label for="taskName">Task Name</label>
+            <input type="text" id="taskName" name="taskName" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="taskTime">Time to Solve (in minutes)</label>
+            <input type="text" id="taskTime" name="taskTime" class="form-control" required pattern="[0-9]+" title="Enter a positive number">
+        </div>
+        <div class="form-group">
+            <label for="attemptNumber">Attempt Number</label>
+            <input type="number" id="attemptNumber" name="attemptNumber" class="form-control" required min="1" title="Enter a positive number (1 or more)">
+        </div>
+        <div class="form-group">
+            <label for="completionDate">Completion Date</label>
+            <input type="date" id="completionDate" name="completionDate" class="form-control" th:value="${T(java.time.LocalDate).now()}" required>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary btn-block">Save Task</button>
+        </div>
+    </form>
+
+    <p th:if="${param.error}" class="error-message">Error: Task not found.</p>
+    <p th:if="${param.success}" class="text-success">Task successfully saved!</p>
+
+    <div class="mt-3 text-center">
+        <a href="/dashboard">Return to Main Page</a>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
