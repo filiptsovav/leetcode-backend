@@ -1,0 +1,62 @@
+# ===============================
+# LeetCode Planner .gitignore
+# ===============================
+
+# === Системные файлы ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+log.txt
+
+# === Окружение и конфиги ===
+.env
+.env.*
+!.env.example
+config/application-*.properties
+config/private.key
+
+# === Зависимости ===
+node_modules/
+target/
+build/
+dist/
+.gradle/
+bin/
+obj/
+
+# === Логи и кэши ===
+*.tmp
+*.temp
+*.pid
+.npm
+.cache
+.parcel-cache
+.next
+.nuxt
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*~
+
+# === Бинарные файлы ===
+*.exe
+*.dll
+*.jar
+*.msi
+*.dmg
+*.zip
+
+# === Базы данных ===
+*.db
+*.sqlite
+db.sqlite
+
+# === Исключения ===
+!README.md
+!docs/
+!src/
+!db/migrations/
+!package.json
