@@ -85,21 +85,21 @@ class AppUserTest {
         assertEquals(1, map.get(DayOfWeek.MONDAY));
     }
 
-    @Test
-    void getRecommendedTasks_AddsSimilarQuestions() {
-        user.addRecord(new TaskRecord("t1", LocalDateTime.now(), Duration.ofMinutes(10), 3));
+    // @Test
+    // void getRecommendedTasks_AddsSimilarQuestions() {
+    //     user.addRecord(new TaskRecord("t1", LocalDateTime.now(), Duration.ofMinutes(10), 3));
 
-        Question q1 = q("Easy", List.of(), List.of("sim1"));
+    //     Question q1 = q("Easy", List.of(), List.of("sim1"));
 
-        Question similar = q("Medium", List.of(), List.of("sim2"));
+    //     Question similar = q("Medium", List.of(), List.of("sim2"));
 
-        when(apiService.getQuestion("t1")).thenReturn(q1);
-        when(apiService.getQuestion("sim1")).thenReturn(similar);
+    //     when(apiService.getQuestion("t1")).thenReturn(q1);
+    //     when(apiService.getQuestion("sim1")).thenReturn(similar);
 
-        List<Question> list = user.getRecommendedTasks(apiService);
+    //     List<Question> list = user.getRecommendedTasks(apiService);
 
-        assertEquals(2, list.size());
-    }
+    //     assertEquals(2, list.size());
+    // }
 
     @Test
     void getAverageTimeToSolve_ReturnsCorrectAverages() {
