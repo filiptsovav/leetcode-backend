@@ -8,6 +8,7 @@ Thumbs.db
 Desktop.ini
 *.log
 log.txt
+build
 
 # === Окружение и конфиги ===
 .env
