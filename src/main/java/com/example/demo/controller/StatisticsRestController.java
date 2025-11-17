@@ -5,9 +5,12 @@ import com.example.demo.repository.UserRepository;
 import com.example.demo.service.LeetCodeApiService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -27,16 +30,21 @@ import java.util.HashMap;
 @RequestMapping("/statistics")
 public class StatisticsRestController {
 
-    @Autowired
-    private LeetCodeApiService leetCodeApiService;
+    private static final Logger log = LoggerFactory.getLogger(StatisticsController.class);
 
     @Autowired
+    private LeetCodeApiService leetCodeApiService;
+    @Autowired
     private UserRepository userRepository;
+
+    @Autowired
+    private ObjectMapper objectMapper;
 
     @GetMapping
     public Map<String, Object> getStatistics(
             @RequestParam(required = false, defaultValue = "month") String timeframe) {
 
+        log.info("GET /statistics timeframe={}", timeframe);
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         org.springframework.security.core.userdetails.User currentUser =
                 (org.springframework.security.core.userdetails.User) authentication.getPrincipal();
@@ -50,6 +58,7 @@ public class StatisticsRestController {
         response.put("dayOfWeekStats", appUser.getSolvedProblemsByDayOfWeek());
         response.put("avgTime", appUser.getAverageTimeToSolve(leetCodeApiService, period));
         response.put("firstAttempt", appUser.getFirstAttemptStats(leetCodeApiService, period));
+        log.info("Статистика рассчитана для пользователя {}", currentUser.getUsername());
 
         return response;
     }

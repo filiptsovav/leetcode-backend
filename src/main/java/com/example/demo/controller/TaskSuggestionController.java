@@ -34,6 +34,7 @@ public class TaskSuggestionController {
 
     @GetMapping("/taskSuggestion")
     public ResponseEntity<?> getTaskSuggestion() {
+        log.info("GET /taskSuggestion");
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = authentication.getName();
         AppUser appUser = userRepository.findByUsername(username);

@@ -1,0 +1,2568 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Aps>
+	<Group>
+		<Page Width="673" Height="363" PaperTray="0">
+			<Canvas>
+				<Canvas>
+					<Clip>
+						<Path FillMode="Winding">
+							<PathFigure IsClosed="True">
+								<PolyLine LineColor="#FF000000">
+									<Point X="0" Y="363" />
+									<Point X="0" Y="0" />
+								</PolyLine>
+								<PolyLine LineColor="#FF000000">
+									<Point X="0" Y="0" />
+									<Point X="673.5" Y="0" />
+								</PolyLine>
+								<PolyLine LineColor="#FF000000">
+									<Point X="673.5" Y="0" />
+									<Point X="673.5" Y="363" />
+								</PolyLine>
+								<PolyLine LineColor="#FF000000">
+									<Point X="673.5" Y="363" />
+									<Point X="0" Y="363" />
+								</PolyLine>
+							</PathFigure>
+						</Path>
+					</Clip>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="True">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="126.8175" Y="356.8125" />
+								<ControlPoint1 X="126.8175" Y="357.33026" />
+								<ControlPoint2 X="127.23723" Y="357.75" />
+								<EndPoint X="127.755" Y="357.75" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="127.755" Y="357.75" />
+								<Point X="127.755" Y="357.75" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="127.755" Y="357.75" />
+								<Point X="668.57996" Y="357.75" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="668.57996" Y="357.75" />
+								<Point X="668.57996" Y="357.75" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="668.57996" Y="357.75" />
+								<ControlPoint1 X="669.0977" Y="357.75" />
+								<ControlPoint2 X="669.51746" Y="357.33026" />
+								<EndPoint X="669.51746" Y="356.8125" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="669.51746" Y="356.8125" />
+								<Point X="668.57996" Y="357.75" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="668.57996" Y="357.75" />
+								<ControlPoint1 X="669.0977" Y="357.75" />
+								<ControlPoint2 X="669.51746" Y="357.33026" />
+								<EndPoint X="669.51746" Y="356.8125" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="669.51746" Y="356.8125" />
+								<Point X="669.51746" Y="356.8125" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="669.51746" Y="356.8125" />
+								<Point X="669.51746" Y="73.6875" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="669.51746" Y="73.6875" />
+								<Point X="669.51746" Y="73.6875" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="669.51746" Y="73.6875" />
+								<ControlPoint1 X="669.51746" Y="73.16974" />
+								<ControlPoint2 X="669.0977" Y="72.75" />
+								<EndPoint X="668.57996" Y="72.75" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="668.57996" Y="72.75" />
+								<Point X="669.51746" Y="73.6875" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="669.51746" Y="73.6875" />
+								<ControlPoint1 X="669.51746" Y="73.16974" />
+								<ControlPoint2 X="669.0977" Y="72.75" />
+								<EndPoint X="668.57996" Y="72.75" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="668.57996" Y="72.75" />
+								<Point X="668.57996" Y="72.75" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="668.57996" Y="72.75" />
+								<Point X="127.755" Y="72.75" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="127.755" Y="72.75" />
+								<Point X="127.755" Y="72.75" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="127.755" Y="72.75" />
+								<ControlPoint1 X="127.23723" Y="72.75" />
+								<ControlPoint2 X="126.8175" Y="73.16974" />
+								<EndPoint X="126.8175" Y="73.6875" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="126.8175" Y="73.6875" />
+								<Point X="127.755" Y="72.75" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="127.755" Y="72.75" />
+								<ControlPoint1 X="127.23723" Y="72.75" />
+								<ControlPoint2 X="126.8175" Y="73.16974" />
+								<EndPoint X="126.8175" Y="73.6875" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="126.8175" Y="73.6875" />
+								<Point X="126.8175" Y="73.6875" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="126.8175" Y="73.6875" />
+								<Point X="126.8175" Y="356.8125" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="126.8175" Y="356.8125" />
+								<Point X="126.8175" Y="356.8125" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="126.8175" Y="356.8125" />
+								<ControlPoint1 X="126.8175" Y="357.33026" />
+								<ControlPoint2 X="127.23723" Y="357.75" />
+								<EndPoint X="127.755" Y="357.75" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 345.77002 16.50592">
+						<Font SizePoints="10.5" Style="Bold" FamilyName="UTCJRF+Arial Bold" Capitals="Normal" ResourceId="1" />
+						<Origin X="0" Y="0" />
+						<Text>L</Text>
+						<Size Width="6.4138184" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 346.32483 16.50592">
+						<Font SizePoints="10.5" Style="Bold" FamilyName="UTCJRF+Arial Bold" Capitals="Normal" ResourceId="1" />
+						<Origin X="0" Y="0" />
+						<Text>eetC</Text>
+						<Size Width="22.758545" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 363.22437 16.50592">
+						<Font SizePoints="10.5" Style="Bold" FamilyName="UTCJRF+Arial Bold" Capitals="Normal" ResourceId="1" />
+						<Origin X="0" Y="0" />
+						<Text>o</Text>
+						<Size Width="6.4138184" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 363.77917 16.50592">
+						<Font SizePoints="10.5" Style="Bold" FamilyName="UTCJRF+Arial Bold" Capitals="Normal" ResourceId="1" />
+						<Origin X="0" Y="0" />
+						<Text>d</Text>
+						<Size Width="6.4138184" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 364.33398 16.50592">
+						<Font SizePoints="10.5" Style="Bold" FamilyName="UTCJRF+Arial Bold" Capitals="Normal" ResourceId="1" />
+						<Origin X="0" Y="0" />
+						<Text>e P</Text>
+						<Size Width="15.760254" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 374.23523 16.50592">
+						<Font SizePoints="10.5" Style="Bold" FamilyName="UTCJRF+Arial Bold" Capitals="Normal" ResourceId="1" />
+						<Origin X="0" Y="0" />
+						<Text>lan</Text>
+						<Size Width="15.170654" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 383.54688 16.50592">
+						<Font SizePoints="10.5" Style="Bold" FamilyName="UTCJRF+Arial Bold" Capitals="Normal" ResourceId="1" />
+						<Origin X="0" Y="0" />
+						<Text>n</Text>
+						<Size Width="6.4138184" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 384.10168 16.50592">
+						<Font SizePoints="10.5" Style="Bold" FamilyName="UTCJRF+Arial Bold" Capitals="Normal" ResourceId="1" />
+						<Origin X="0" Y="0" />
+						<Text>er</Text>
+						<Size Width="9.925781" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FFF1F1F1" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.375">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="160.9275" Y="312.74887" />
+								<ControlPoint1 X="160.9275" Y="323.05927" />
+								<ControlPoint2 X="198.68918" Y="331.41748" />
+								<EndPoint X="245.27055" Y="331.41748" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="245.27055" Y="331.41748" />
+								<Point X="245.27055" Y="331.41748" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="245.27055" Y="331.41748" />
+								<ControlPoint1 X="291.85193" Y="331.41748" />
+								<ControlPoint2 X="329.6136" Y="323.05927" />
+								<EndPoint X="329.6136" Y="312.74887" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="329.6136" Y="312.74887" />
+								<Point X="329.6136" Y="312.74887" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="329.6136" Y="312.74887" />
+								<ControlPoint1 X="329.6136" Y="302.43848" />
+								<ControlPoint2 X="291.85193" Y="294.08026" />
+								<EndPoint X="245.27055" Y="294.08026" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="245.27055" Y="294.08026" />
+								<Point X="245.27055" Y="294.08026" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="245.27055" Y="294.08026" />
+								<ControlPoint1 X="198.68918" Y="294.08026" />
+								<ControlPoint2 X="160.9275" Y="302.43848" />
+								<EndPoint X="160.9275" Y="312.74887" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 169.07632 53.74701">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>У</Text>
+						<Size Width="6.670166" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 169.898 53.74701">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>правл</Text>
+						<Size Width="29.069824" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 193.11932 53.74701">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ять пол</Text>
+						<Size Width="36.534668" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 223.8055 53.74701">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ьзовател</Text>
+						<Size Width="44.317383" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 262.27438 53.74701">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ям</Text>
+						<Size Width="12.904541" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 269.3304 53.74701">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>и</Text>
+						<Size Width="5.8652344" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FFF1F1F1" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.375">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="147.1125" Y="246.75368" />
+								<ControlPoint1 X="147.1125" Y="258.58987" />
+								<ControlPoint2 X="191.05872" Y="268.185" />
+								<EndPoint X="245.26913" Y="268.185" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="245.26913" Y="268.185" />
+								<Point X="245.26913" Y="268.185" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="245.26913" Y="268.185" />
+								<ControlPoint1 X="299.47955" Y="268.185" />
+								<ControlPoint2 X="343.42578" Y="258.58987" />
+								<EndPoint X="343.42578" Y="246.75368" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="343.42578" Y="246.75368" />
+								<Point X="343.42578" Y="246.75368" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="343.42578" Y="246.75368" />
+								<ControlPoint1 X="343.42578" Y="234.91748" />
+								<ControlPoint2 X="299.47955" Y="225.32236" />
+								<EndPoint X="245.26913" Y="225.32236" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="245.26913" Y="225.32236" />
+								<Point X="245.26913" Y="225.32236" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="245.26913" Y="225.32236" />
+								<ControlPoint1 X="191.05872" Y="225.32236" />
+								<ControlPoint2 X="147.1125" Y="234.91748" />
+								<EndPoint X="147.1125" Y="246.75368" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 154.3605 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>М</Text>
+						<Size Width="8.746582" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 157.29008 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>о</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 157.31268 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ни</Text>
+						<Size Width="11.663818" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 163.1595 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>то</Text>
+						<Size Width="10.648682" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 167.99118 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>р</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 168.01378 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>и</Text>
+						<Size Width="5.8652344" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 168.06201 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ть си</Text>
+						<Size Width="24.312012" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 186.55702 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>сте</Text>
+						<Size Width="15.898682" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 196.6387 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>м</Text>
+						<Size Width="7.21875" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 198.04045 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ны</Text>
+						<Size Width="13.345459" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 205.56891 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>е</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 205.5915 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text> м</Text>
+						<Size Width="10.135986" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 209.91049 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>е</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 209.93309 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>тр</Text>
+						<Size Width="10.648682" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 214.76477 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>и</Text>
+						<Size Width="5.8652344" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 214.813 119.74222">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ки</Text>
+						<Size Width="10.458984" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FFF1F1F1" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.375">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="138.82498" Y="176.25293" />
+								<ControlPoint1 X="138.82498" Y="189.00494" />
+								<ControlPoint2 X="186.4833" Y="199.3425" />
+								<EndPoint X="245.27286" Y="199.3425" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="245.27286" Y="199.3425" />
+								<Point X="245.27286" Y="199.3425" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="245.27286" Y="199.3425" />
+								<ControlPoint1 X="304.0624" Y="199.3425" />
+								<ControlPoint2 X="351.72073" Y="189.00494" />
+								<EndPoint X="351.72073" Y="176.25293" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="351.72073" Y="176.25293" />
+								<Point X="351.72073" Y="176.25293" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="351.72073" Y="176.25293" />
+								<ControlPoint1 X="351.72073" Y="163.50092" />
+								<ControlPoint2 X="304.0624" Y="153.16336" />
+								<EndPoint X="245.27286" Y="153.16336" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="245.27286" Y="153.16336" />
+								<Point X="245.27286" Y="153.16336" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="245.27286" Y="153.16336" />
+								<ControlPoint1 X="186.4833" Y="153.16336" />
+								<ControlPoint2 X="138.82498" Y="163.50092" />
+								<EndPoint X="138.82498" Y="176.25293" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 145.65616 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>У</Text>
+						<Size Width="6.670166" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 146.54082 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>пр</Text>
+						<Size Width="11.525391" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 152.2807 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>а</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 152.3348 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>вл</Text>
+						<Size Width="11.704834" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 158.25412 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ять ко</Text>
+						<Size Width="29.315918" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 181.78455 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>н</Text>
+						<Size Width="5.798584" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 181.79762 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ф</Text>
+						<Size Width="8.638916" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 184.65103 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>и</Text>
+						<Size Width="5.8652344" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 184.73076 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>гур</Text>
+						<Size Width="14.919434" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 193.86469 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>а</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 193.91878 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ц</Text>
+						<Size Width="6.013916" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 194.14719 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>и</Text>
+						<Size Width="5.8652344" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 194.22691 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>е</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 194.281 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>й</Text>
+						<Size Width="5.8652344" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 194.36073 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text> си</Text>
+						<Size Width="14.032471" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 202.6077 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>сте</Text>
+						<Size Width="15.898682" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 212.72089 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>м</Text>
+						<Size Width="7.21875" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 214.15413 190.24297">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ы</Text>
+						<Size Width="7.546875" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FFF1F1F1" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.375">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="148.7925" Y="105.75119" />
+								<ControlPoint1 X="148.7925" Y="117.40236" />
+								<ControlPoint2 X="191.9888" Y="126.84749" />
+								<EndPoint X="245.27414" Y="126.84749" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="245.27414" Y="126.84749" />
+								<Point X="245.27414" Y="126.84749" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="245.27414" Y="126.84749" />
+								<ControlPoint1 X="298.55948" Y="126.84749" />
+								<ControlPoint2 X="341.7558" Y="117.40236" />
+								<EndPoint X="341.7558" Y="105.75119" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="341.7558" Y="105.75119" />
+								<Point X="341.7558" Y="105.75119" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="341.7558" Y="105.75119" />
+								<ControlPoint1 X="341.7558" Y="94.10004" />
+								<ControlPoint2 X="298.55948" Y="84.65488" />
+								<EndPoint X="245.27414" Y="84.65488" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="245.27414" Y="84.65488" />
+								<Point X="245.27414" Y="84.65488" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="245.27414" Y="84.65488" />
+								<ControlPoint1 X="191.9888" Y="84.65488" />
+								<ControlPoint2 X="148.7925" Y="94.10004" />
+								<EndPoint X="148.7925" Y="105.75119" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 156.1344 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>П</Text>
+						<Size Width="7.546875" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 157.91678 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>р</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 157.99188 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>о</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 158.06699 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>см</Text>
+						<Size Width="12.46875" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 164.77124 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>а</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 164.84634 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>тр</Text>
+						<Size Width="10.648682" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 169.73053 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>и</Text>
+						<Size Width="5.8652344" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 169.83127 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ва</Text>
+						<Size Width="11.417725" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 175.4845 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ть си</Text>
+						<Size Width="24.312012" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 194.03201 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>сте</Text>
+						<Size Width="15.898682" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 204.1662 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>м</Text>
+						<Size Width="7.21875" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 205.62045 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>н</Text>
+						<Size Width="5.798584" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 205.65454 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ы</Text>
+						<Size Width="7.546875" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 207.43692 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>е</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 207.51202 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text> л</Text>
+						<Size Width="9.043945" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 210.79147 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>о</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 210.86658 260.74475">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ги</Text>
+						<Size Width="9.695068" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FFF1F1F1" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.375">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="461.86505" Y="311.99963" />
+								<ControlPoint1 X="461.86505" Y="322.89365" />
+								<ControlPoint2 X="501.99228" Y="331.725" />
+								<EndPoint X="551.49176" Y="331.725" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.49176" Y="331.725" />
+								<Point X="551.49176" Y="331.725" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="551.49176" Y="331.725" />
+								<ControlPoint1 X="600.9912" Y="331.725" />
+								<ControlPoint2 X="641.11847" Y="322.89365" />
+								<EndPoint X="641.11847" Y="311.99963" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="641.11847" Y="311.99963" />
+								<Point X="641.11847" Y="311.99963" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="641.11847" Y="311.99963" />
+								<ControlPoint1 X="641.11847" Y="301.1056" />
+								<ControlPoint2 X="600.9912" Y="292.27423" />
+								<EndPoint X="551.49176" Y="292.27423" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.49176" Y="292.27423" />
+								<Point X="551.49176" Y="292.27423" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="551.49176" Y="292.27423" />
+								<ControlPoint1 X="501.99228" Y="292.27423" />
+								<ControlPoint2 X="461.86505" Y="301.1056" />
+								<EndPoint X="461.86505" Y="311.99963" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 469.6322 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>З</Text>
+						<Size Width="6.342041" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 470.23074 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>а</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 470.32684 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>б</Text>
+						<Size Width="6.013916" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 470.59726 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>л</Text>
+						<Size Width="6.126709" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 470.98047 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>о</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 471.07657 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ки</Text>
+						<Size Width="10.458984" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 475.79205 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>р</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 475.88815 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>о</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 475.98425 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ва</Text>
+						<Size Width="11.417725" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 481.65848 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ть по</Text>
+						<Size Width="24.722168" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 500.63715 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>л</Text>
+						<Size Width="6.126709" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 501.02036 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ьзо</Text>
+						<Size Width="16.124268" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 511.40112 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ва</Text>
+						<Size Width="11.417725" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 517.0753 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>те</Text>
+						<Size Width="10.648682" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 521.98047 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>л</Text>
+						<Size Width="6.126709" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 522.36365 54.496277">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>я</Text>
+						<Size Width="5.685791" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FFF1F1F1" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.375">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="456.945" Y="245.2482" />
+								<ControlPoint1 X="456.945" Y="256.68564" />
+								<ControlPoint2 X="499.27493" Y="265.95752" />
+								<EndPoint X="551.4915" Y="265.95752" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.4915" Y="265.95752" />
+								<Point X="551.4915" Y="265.95752" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="551.4915" Y="265.95752" />
+								<ControlPoint1 X="603.7081" Y="265.95752" />
+								<ControlPoint2 X="646.038" Y="256.68564" />
+								<EndPoint X="646.038" Y="245.2482" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="646.038" Y="245.2482" />
+								<Point X="646.038" Y="245.2482" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="646.038" Y="245.2482" />
+								<ControlPoint1 X="646.038" Y="233.81076" />
+								<ControlPoint2 X="603.7081" Y="224.5389" />
+								<EndPoint X="551.4915" Y="224.5389" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.4915" Y="224.5389" />
+								<Point X="551.4915" Y="224.5389" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="551.4915" Y="224.5389" />
+								<ControlPoint1 X="499.27493" Y="224.5389" />
+								<ControlPoint2 X="456.945" Y="233.81076" />
+								<EndPoint X="456.945" Y="245.2482" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 464.40002 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>С</Text>
+						<Size Width="7.5827637" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 466.27078 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>б</Text>
+						<Size Width="6.013916" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 466.5727 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>р</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 466.7003 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>о</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 466.82788 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>си</Text>
+						<Size Width="11.115234" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 472.2311 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ть па</Text>
+						<Size Width="24.722168" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 491.24127 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>р</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 491.36887 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>о</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 491.49646 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>л</Text>
+						<Size Width="6.126709" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 491.91116 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ь по</Text>
+						<Size Width="19.913086" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 506.11224 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>л</Text>
+						<Size Width="6.126709" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 506.52695 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ьзо</Text>
+						<Size Width="16.124268" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 516.9392 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ва</Text>
+						<Size Width="11.417725" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 522.64496 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>те</Text>
+						<Size Width="10.648682" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 527.58167 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>л</Text>
+						<Size Width="6.126709" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 527.9964 121.247696">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>я</Text>
+						<Size Width="5.685791" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FFF1F1F1" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.375">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="445.4625" Y="175.49722" />
+								<ControlPoint1 X="445.4625" Y="188.20268" />
+								<ControlPoint2 X="492.93216" Y="198.5025" />
+								<EndPoint X="551.48895" Y="198.5025" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.48895" Y="198.5025" />
+								<Point X="551.48895" Y="198.5025" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="551.48895" Y="198.5025" />
+								<ControlPoint1 X="610.0458" Y="198.5025" />
+								<ControlPoint2 X="657.5154" Y="188.20268" />
+								<EndPoint X="657.5154" Y="175.49722" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="657.5154" Y="175.49722" />
+								<Point X="657.5154" Y="175.49722" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="657.5154" Y="175.49722" />
+								<ControlPoint1 X="657.5154" Y="162.79176" />
+								<ControlPoint2 X="610.0458" Y="152.49194" />
+								<EndPoint X="551.48895" Y="152.49194" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.48895" Y="152.49194" />
+								<Point X="551.48895" Y="152.49194" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="551.48895" Y="152.49194" />
+								<ControlPoint1 X="492.93216" Y="152.49194" />
+								<ControlPoint2 X="445.4625" Y="162.79176" />
+								<EndPoint X="445.4625" Y="175.49722" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 452.31317 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>К</Text>
+						<Size Width="6.116455" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 452.77014 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>о</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 452.95026 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>н</Text>
+						<Size Width="5.798584" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 453.08936 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>тр</Text>
+						<Size Width="10.648682" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 458.07855 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>о</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 458.25867 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>л</Text>
+						<Size Width="6.126709" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 458.7259 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>и</Text>
+						<Size Width="5.8652344" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 458.93164 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>р</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 459.11176 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>о</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 459.29187 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ва</Text>
+						<Size Width="11.417725" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 465.0501 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ть и</Text>
+						<Size Width="19.062012" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 478.45264 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>сп</Text>
+						<Size Width="10.935791" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 483.72894 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>о</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 483.90906 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>л</Text>
+						<Size Width="6.126709" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 484.37628 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ьзо</Text>
+						<Size Width="16.124268" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 494.84106 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ва</Text>
+						<Size Width="11.417725" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 500.5993 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>н</Text>
+						<Size Width="5.798584" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 500.7384 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>и</Text>
+						<Size Width="5.8652344" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 500.94415 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>е</Text>
+						<Size Width="5.8395996" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 501.12427 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text> A</Text>
+						<Size Width="9.920654" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 505.38544 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>P</Text>
+						<Size Width="7.003418" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 506.72937 190.99867">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>I</Text>
+						<Size Width="2.9172363" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FFF1F1F1" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.375">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="42.035553" Y="223.23749" />
+								<ControlPoint1 X="42.035553" Y="226.5512" />
+								<ControlPoint2 X="44.721844" Y="229.23749" />
+								<EndPoint X="48.035553" Y="229.23749" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="48.035553" Y="229.23749" />
+								<Point X="48.035553" Y="229.23749" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="48.035553" Y="229.23749" />
+								<ControlPoint1 X="51.349262" Y="229.23749" />
+								<ControlPoint2 X="54.035553" Y="226.5512" />
+								<EndPoint X="54.035553" Y="223.23749" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="54.035553" Y="223.23749" />
+								<Point X="54.035553" Y="223.23749" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="54.035553" Y="223.23749" />
+								<ControlPoint1 X="54.035553" Y="219.92378" />
+								<ControlPoint2 X="51.349262" Y="217.23749" />
+								<EndPoint X="48.035553" Y="217.23749" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="48.035553" Y="217.23749" />
+								<Point X="48.035553" Y="217.23749" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="48.035553" Y="217.23749" />
+								<ControlPoint1 X="44.721844" Y="217.23749" />
+								<ControlPoint2 X="42.035553" Y="219.92378" />
+								<EndPoint X="42.035553" Y="223.23749" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.375">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<PolyLine LineColor="#FF000000">
+								<Point X="48.035553" Y="196.98749" />
+								<Point X="48.035553" Y="196.98749" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="48.035553" Y="196.98749" />
+								<Point X="57.785553" Y="185.73749" />
+							</PolyLine>
+						</PathFigure>
+						<PathFigure IsClosed="False">
+							<PolyLine LineColor="#FF000000">
+								<Point X="48.035553" Y="196.98749" />
+								<Point X="48.035553" Y="196.98749" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="48.035553" Y="196.98749" />
+								<Point X="38.285553" Y="185.73749" />
+							</PolyLine>
+						</PathFigure>
+						<PathFigure IsClosed="False">
+							<PolyLine LineColor="#FF000000">
+								<Point X="38.285553" Y="211.23749" />
+								<Point X="38.285553" Y="211.23749" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="38.285553" Y="211.23749" />
+								<Point X="57.785553" Y="211.23749" />
+							</PolyLine>
+						</PathFigure>
+						<PathFigure IsClosed="False">
+							<PolyLine LineColor="#FF000000">
+								<Point X="48.035553" Y="217.23749" />
+								<Point X="48.035553" Y="217.23749" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="48.035553" Y="217.23749" />
+								<Point X="48.035553" Y="196.98749" />
+							</PolyLine>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 4.5 188.14342">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>А</Text>
+						<Size Width="7.003418" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 5.245418 188.14342">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>дм</Text>
+						<Size Width="13.345459" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 12.332877 188.14342">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>инистратор</Text>
+						<Size Width="55.755615" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FFF1F1F1" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.375">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="545.49133" Y="54.487488" />
+								<ControlPoint1 X="545.49133" Y="57.80121" />
+								<ControlPoint2 X="548.1776" Y="60.487488" />
+								<EndPoint X="551.49133" Y="60.487488" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.49133" Y="60.487488" />
+								<Point X="551.49133" Y="60.487488" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="551.49133" Y="60.487488" />
+								<ControlPoint1 X="554.80505" Y="60.487488" />
+								<ControlPoint2 X="557.49133" Y="57.80121" />
+								<EndPoint X="557.49133" Y="54.487488" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="557.49133" Y="54.487488" />
+								<Point X="557.49133" Y="54.487488" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="557.49133" Y="54.487488" />
+								<ControlPoint1 X="557.49133" Y="51.173767" />
+								<ControlPoint2 X="554.80505" Y="48.487488" />
+								<EndPoint X="551.49133" Y="48.487488" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.49133" Y="48.487488" />
+								<Point X="551.49133" Y="48.487488" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="551.49133" Y="48.487488" />
+								<ControlPoint1 X="548.1776" Y="48.487488" />
+								<ControlPoint2 X="545.49133" Y="51.173767" />
+								<EndPoint X="545.49133" Y="54.487488" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.375">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.49133" Y="28.237488" />
+								<Point X="551.49133" Y="28.237488" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.49133" Y="28.237488" />
+								<Point X="561.24133" Y="16.987488" />
+							</PolyLine>
+						</PathFigure>
+						<PathFigure IsClosed="False">
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.49133" Y="28.237488" />
+								<Point X="551.49133" Y="28.237488" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.49133" Y="28.237488" />
+								<Point X="541.74133" Y="16.987488" />
+							</PolyLine>
+						</PathFigure>
+						<PathFigure IsClosed="False">
+							<PolyLine LineColor="#FF000000">
+								<Point X="541.74133" Y="42.487488" />
+								<Point X="541.74133" Y="42.487488" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="541.74133" Y="42.487488" />
+								<Point X="561.24133" Y="42.487488" />
+							</PolyLine>
+						</PathFigure>
+						<PathFigure IsClosed="False">
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.49133" Y="48.487488" />
+								<Point X="551.49133" Y="48.487488" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="551.49133" Y="48.487488" />
+								<Point X="551.49133" Y="28.237488" />
+							</PolyLine>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 489.9525 356.8934">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>С</Text>
+						<Size Width="7.5827637" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 491.5923 356.8934">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>истем</Text>
+						<Size Width="28.982666" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 514.63196 356.8934">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>а м</Text>
+						<Size Width="15.975586" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 524.66455 356.8934">
+						<Font SizePoints="10.5" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>ониторинга</Text>
+						<Size Width="55.32495" Height="11.730469" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="313.26752" Y="231.02249" />
+								<ControlPoint1 X="362.1675" Y="219.5925" />
+								<ControlPoint2 X="423.91315" Y="205.15186" />
+								<EndPoint X="473.96063" Y="193.45186" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FF181818" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="True">
+							<PolyLine LineColor="#FF000000">
+								<Point X="478.34247" Y="192.4275" />
+								<Point X="478.34247" Y="192.4275" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="478.34247" Y="192.4275" />
+								<Point X="472.45267" Y="196.88528" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="472.45267" Y="196.88528" />
+								<Point X="474.69098" Y="193.28116" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="474.69098" Y="193.28116" />
+								<Point X="471.0868" Y="191.04285" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="471.0868" Y="191.04285" />
+								<Point X="478.34247" Y="192.4275" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="478.34247" Y="192.4275" />
+								<Point X="478.34247" Y="192.4275" />
+							</PolyLine>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 374.97 144.80908">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>«</Text>
+						<Size Width="5.4224854" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 375.26398 144.80908">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>in</Text>
+						<Size Width="7.588623" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 377.7241 144.80908">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>clu</Text>
+						<Size Width="12.463623" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 385.0592 144.80908">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>d</Text>
+						<Size Width="5.4224854" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 385.35318 144.80908">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>e</Text>
+						<Size Width="5.4224854" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 385.64716 144.80908">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>»</Text>
+						<Size Width="5.4224854" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="329.8875" Y="312.54" />
+								<ControlPoint1 X="370.7625" Y="312.4425" />
+								<ControlPoint2 X="415.44" Y="312.3339" />
+								<EndPoint X="457.005" Y="312.22888" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FF181818" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="True">
+							<PolyLine LineColor="#FF000000">
+								<Point X="461.505" Y="312.2175" />
+								<Point X="461.505" Y="312.2175" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="461.505" Y="312.2175" />
+								<Point X="454.76257" Y="315.23453" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="454.76257" Y="315.23453" />
+								<Point X="457.755" Y="312.22696" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="457.755" Y="312.22696" />
+								<Point X="454.74744" Y="309.23453" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="454.74744" Y="309.23453" />
+								<Point X="461.505" Y="312.2175" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="461.505" Y="312.2175" />
+								<Point X="461.505" Y="312.2175" />
+							</PolyLine>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 374.97 48.059082">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>«</Text>
+						<Size Width="5.4224854" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 375.26398 48.059082">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>in</Text>
+						<Size Width="7.588623" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 377.7241 48.059082">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>clu</Text>
+						<Size Width="12.463623" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 385.0592 48.059082">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>d</Text>
+						<Size Width="5.4224854" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 385.35318 48.059082">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>e</Text>
+						<Size Width="5.4224854" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 385.64716 48.059082">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>»</Text>
+						<Size Width="5.4224854" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="305.85748" Y="299.49" />
+								<ControlPoint1 X="357.165" Y="288.1275" />
+								<ControlPoint2 X="426.60162" Y="272.75122" />
+								<EndPoint X="479.76166" Y="260.96872" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FF181818" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="True">
+							<PolyLine LineColor="#FF000000">
+								<Point X="484.15497" Y="259.995" />
+								<Point X="484.15497" Y="259.995" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="484.15497" Y="259.995" />
+								<Point X="478.21408" Y="264.38452" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="478.21408" Y="264.38452" />
+								<Point X="480.4939" Y="260.80652" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="480.4939" Y="260.80652" />
+								<Point X="476.91577" Y="258.52673" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="476.91577" Y="258.52673" />
+								<Point X="484.15497" Y="259.995" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="484.15497" Y="259.995" />
+								<Point X="484.15497" Y="259.995" />
+							</PolyLine>
+						</PathFigure>
+					</Path>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 374.97 77.30908">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>«</Text>
+						<Size Width="5.4224854" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 375.26398 77.30908">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>in</Text>
+						<Size Width="7.588623" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 377.7241 77.30908">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>clu</Text>
+						<Size Width="12.463623" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 385.0592 77.30908">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>d</Text>
+						<Size Width="5.4224854" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 385.35318 77.30908">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>e</Text>
+						<Size Width="5.4224854" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Glyphs OutlineWidth="0.5" CharSpace="0" RenderTransform="1 0 -0 1 385.64716 77.30908">
+						<Font SizePoints="9.75" Style="Regular" FamilyName="JVPPPA+Arial" Capitals="Normal" ResourceId="2" />
+						<Origin X="0" Y="0" />
+						<Text>»</Text>
+						<Size Width="5.4224854" Height="10.892578" />
+						<Brush>
+							<SolidBrush Color="#FF000000" />
+						</Brush>
+						<Tag>convertedFont</Tag>
+					</Glyphs>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="315.2625" Y="231.48" />
+								<ControlPoint1 X="328.1475" Y="226.66501" />
+								<ControlPoint2 X="340.935" Y="220.395" />
+								<EndPoint X="351.72" Y="212.25" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="351.72" Y="212.25" />
+								<Point X="351.72" Y="212.25" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="351.72" Y="212.25" />
+								<ControlPoint1 X="411.3075" Y="167.205" />
+								<ControlPoint2 X="387.06" Y="119.32501" />
+								<EndPoint X="445.47003" Y="72.75" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="445.47003" Y="72.75" />
+								<Point X="445.47003" Y="72.75" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="445.47003" Y="72.75" />
+								<ControlPoint1 X="458.40753" Y="62.429993" />
+								<ControlPoint2 X="470.07294" Y="56.133057" />
+								<EndPoint X="485.53043" Y="50.15558" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FF181818" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="True">
+							<PolyLine LineColor="#FF000000">
+								<Point X="489.72748" Y="48.5325" />
+								<Point X="489.72748" Y="48.5325" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="489.72748" Y="48.5325" />
+								<Point X="484.51385" Y="53.765167" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="484.51385" Y="53.765167" />
+								<Point X="486.2299" Y="49.88504" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="486.2299" Y="49.88504" />
+								<Point X="482.34985" Y="48.168976" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="482.34985" Y="48.168976" />
+								<Point X="489.72748" Y="48.5325" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="489.72748" Y="48.5325" />
+								<Point X="489.72748" Y="48.5325" />
+							</PolyLine>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="67.9425" Y="229.845" />
+								<ControlPoint1 X="80.909996" Y="247.20001" />
+								<ControlPoint2 X="99.5175" Y="268.35748" />
+								<EndPoint X="120.8175" Y="281.25" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="120.8175" Y="281.25" />
+								<Point X="120.8175" Y="281.25" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="120.8175" Y="281.25" />
+								<ControlPoint1 X="136.935" Y="291" />
+								<ControlPoint2 X="151.62503" Y="296.63623" />
+								<EndPoint X="169.88751" Y="301.30124" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FF181818" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="True">
+							<PolyLine LineColor="#FF000000">
+								<Point X="174.2475" Y="302.415" />
+								<Point X="174.2475" Y="302.415" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="174.2475" Y="302.415" />
+								<Point X="166.965" Y="303.65106" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="166.965" Y="303.65106" />
+								<Point X="170.6142" Y="301.48688" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="170.6142" Y="301.48688" />
+								<Point X="168.45001" Y="297.83774" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="168.45001" Y="297.83774" />
+								<Point X="174.2475" Y="302.415" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="174.2475" Y="302.415" />
+								<Point X="174.2475" Y="302.415" />
+							</PolyLine>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="91.74" Y="211.0425" />
+								<ControlPoint1 X="116.7825" Y="216.8925" />
+								<ControlPoint2 X="144.52312" Y="223.37558" />
+								<EndPoint X="172.85062" Y="229.99808" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FF181818" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="True">
+							<PolyLine LineColor="#FF000000">
+								<Point X="177.2325" Y="231.02249" />
+								<Point X="177.2325" Y="231.02249" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="177.2325" Y="231.02249" />
+								<Point X="169.97678" Y="232.40715" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="169.97678" Y="232.40715" />
+								<Point X="173.58098" Y="230.16885" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="173.58098" Y="230.16885" />
+								<Point X="171.34267" Y="226.56465" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="171.34267" Y="226.56465" />
+								<Point X="177.2325" Y="231.02249" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="177.2325" Y="231.02249" />
+								<Point X="177.2325" Y="231.02249" />
+							</PolyLine>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="91.74" Y="195.56999" />
+								<ControlPoint1 X="109.6875" Y="193.2975" />
+								<ControlPoint2 X="126.81555" Y="191.13225" />
+								<EndPoint X="148.04056" Y="188.44725" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FF181818" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="True">
+							<PolyLine LineColor="#FF000000">
+								<Point X="152.505" Y="187.88249" />
+								<Point X="152.505" Y="187.88249" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="152.505" Y="187.88249" />
+								<Point X="146.18489" Y="191.70592" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="146.18489" Y="191.70592" />
+								<Point X="148.78462" Y="188.35312" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="148.78462" Y="188.35312" />
+								<Point X="145.4319" Y="185.75333" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="145.4319" Y="185.75333" />
+								<Point X="152.505" Y="187.88249" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="152.505" Y="187.88249" />
+								<Point X="152.505" Y="187.88249" />
+							</PolyLine>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="False">
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="77.167496" Y="172.155" />
+								<ControlPoint1 X="89.655" Y="160.83" />
+								<ControlPoint2 X="105.06" Y="148.58249" />
+								<EndPoint X="120.8175" Y="140.25" />
+							</Bezier>
+							<PolyLine LineColor="#FF000000">
+								<Point X="120.8175" Y="140.25" />
+								<Point X="120.8175" Y="140.25" />
+							</PolyLine>
+							<Bezier CurveColor="#FF000000">
+								<StartPoint X="120.8175" Y="140.25" />
+								<ControlPoint1 X="136.98" Y="131.70749" />
+								<ControlPoint2 X="151.15479" Y="126.32579" />
+								<EndPoint X="168.83978" Y="121.2858" />
+							</Bezier>
+						</PathFigure>
+					</Path>
+					<Path FillMode="Alternate" RenderTransform="1 0 0 -1 0 363">
+						<Brush>
+							<SolidBrush Color="#FF181818" />
+						</Brush>
+						<Pen Alignment="Center" DashCap="Flat" DashOffset="0" DashStyle="Solid" EndCap="Flat" LineJoin="Miter" MiterLimit="10" StartCap="Flat" Width="0.75">
+							<Brush>
+								<SolidBrush Color="#FF181818" />
+							</Brush>
+						</Pen>
+						<PathFigure IsClosed="True">
+							<PolyLine LineColor="#FF000000">
+								<Point X="173.1675" Y="120.052505" />
+								<Point X="173.1675" Y="120.052505" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="173.1675" Y="120.052505" />
+								<Point X="167.49817" Y="124.78763" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="167.49817" Y="124.78763" />
+								<Point X="169.56113" Y="121.08029" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="169.56113" Y="121.08029" />
+								<Point X="165.85373" Y="119.017334" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="165.85373" Y="119.017334" />
+								<Point X="173.1675" Y="120.052505" />
+							</PolyLine>
+							<PolyLine LineColor="#FF000000">
+								<Point X="173.1675" Y="120.052505" />
+								<Point X="173.1675" Y="120.052505" />
+							</PolyLine>
+						</PathFigure>
+					</Path>
+				</Canvas>
+			</Canvas>
+		</Page>
+	</Group>
+	<Resources>
+		<Resource Id="1">AAEAAAANAIAAAwBQY21hcBCzFNcAAADcAAAB9GN2dCDu2JTMAAAC0AAABzhmcGdtogPuFAAACggAAAVIZ2x5ZmNeeegAAA9QAAALyGhlYWQ8aYSPAAAbGAAAADZoaGVhDJ8ECAAAG1AAAAAkaG10eDQgBI0AABt0AAAANGxvY2EAAFADAAAbqAAAADhtYXhwDWghugAAG+AAAAAgbmFtZZa4548AABwAAAAB7E9TLzIPfjOUAAAd7AAAAFZwb3N0AAMAAAAAHkQAAAAgcHJlcKMWghUAAB5kAAAQbAAAAAQAAAADAAAAJAABAAAAAAC2AAMAAQAAAUgAAwAIAAAB2gAEAJIAAAAaABAAAwAKACAAQwBMAFAAYQBkAGUAbABuAG8AcgB0//8AAAAgAEMATABQAGEAZABlAGwAbgBvAHIAdP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAaABoAGgAaABoAGgAaABoAGgAaABoAGgAHAAQAAQAIAAoABgACAAkACwAFAAwAAwAAAAQAkgAAABoAEAADAAoAIABDAEwAUABhAGQAZQBsAG4AbwByAHT//wAAACAAQwBMAFAAYQBkAGUAbABuAG8AcgB0//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaABoAGgAaABoAGgAaABoAGgAaABoAGgAaAAcABAABAAgACgAGAAIACQALAAUADAADAAAABACSAAAAGgAQAAMACgAgAEMATABQAGEAZABlAGwAbgBvAHIAdP//AAAAIABDAEwAUABhAGQAZQBsAG4AbwByAHT//wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABoAGgAaABoAGgAaABoAGgAaABoAGgAaABoABwAEAAEACAAKAAYAAgAJAAsABQAMAAMAAAAEABoAAAACAAIAAAAA//8AAP//AAAAAgAABboAHAW6ABwFpwAcBCYAHAAA/+QAAP/kAAD/5P5p/+QFugAc/mn/5ALqAAABHQAAAR0AAAAAAAAAAACyAKwA1wEoASAAswH6ABcA+AEZATEASQAEAPcAAwCvAP0AlQAUAFQAlgESACQAFgBVAEkBBAEZASsAjAGb/3b/6QA9AJIAov+3AYL/qgAWAI8AxgD4ABwA3gQBADcATgBVAFUAZQDpA+UAWf+aAAgAhwALADsAUgEWAGEA1gDWAPUAAACTAJQAvgF8//gABAAUAIIAkgA8AEEAQf/B//wAKgCMBJAF2Am1AJEAuwEG/2P/aQAeACIAigIr/9b/3wAmAFkAowCsAQQBKwHABEgAIQBrAIUAmAEZA8YAawCVAKQA/gEMAl0DQwW/AAAASQBWAG4AdwCKAKoAygESAVAF2AXw/3v/5wAGABMAKABhAGkA6QE1AU0CpQQM/z7/2gBbALkAyAEZARkBGQHABFsEpwVb/j//nf/CABUAtwEKAbwBwQUyBY79gf+h/64ADAAmADEAPQBOAFYAYgCDAMEAyQDxAPICf/9/AEgAUwB3AMUBHQEgASYBKAHWAhkCfgJ+A9MALgBBAF0AawB1AJ8AsACyALoAuwC9ANYA2wDgAOUBFAEbAUoBYgGRAfICDAJkAs8DmwO0A9QEAQSpABYAIwAlACoAdAClALYAzADNAM8BBQEgATABUAFqAW8BlwGdAeACsALsAvcECASDBPsE/QUm/uD++/9O//UAGAAaAEwAegB/AJEAowCzALQAzgDVAPIA8wD2ARABOAFoAaEBsAHgAewCCQIiAk8CcAKWAqUCrQNOA5EDwQQ1BEIEawTNBNoFhgWLB2EH/vym/pP+rf7R/7f/0QADAA4AGAAmAEYAaQCBAI8ApQC/ANMA1QDZAN0A4gEZASsBOAE7AVoBXgFoAXMBiAGUAa0BxQHRAeoB8gIAAgACAAIiAjsCRAJPAm8CcgJ+AoICkwKUAqUCzwLPAtAC2gLdAusC9QMFAyIDNgNxA6EDsAO4A9AD5gQQBCYELgQxBE8EWgT/BTIFMgVHBVMFqAWrBcIF8AY8BmQGcAboB4IHhAjM/Sr93v4A/mj+sP6z/6oACABZAHoAkQCeAKIArwC0ALsAygDMAM4A2QDgAPQBFAEaASEBJwErATkBRgFLAU0BVwFcAWUBggGHAZIBmAGbAaIBrgHFAcUB0QIHAiICKwJBAlMCYQJlAoQChwKNArQCtAK6AskC1gLYAu0C9QMXAyMDKwMxA0kDWgNbA24DcQN0A34DhAORA5EDqgPPA9MD5wPoA+0ECAQXBB4EdQR6BJkEpwS0BNEFTAVtBW0FogW/BcAF0QX8BfwGAgYaBhwGLwZqBqgG4gcGBzYHUAeJB9QH8whwARwBKgEaASAAAAAAAAAAAAAAAAACGQALAB4CqgIU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</Resource>
+		<Resource Id="2">AAEAAAANAIAAAwBQY21hcLyEwqQAAADcAAAFtGN2dCCWcNJ2AAAGkAAABjBmcGdtdyep9QAADMAAAAWwZ2x5ZqccesEAABJwAAAosGhlYWQ8FITjAAA7IAAAADZoaGVhDYgFHAAAO1gAAAAkaG10eOSXEzcAADt8AAAA0GxvY2EABCA4AAA8TAAAANRtYXhwC04cSwAAPSAAAAAgbmFtZce8/UAAAD1AAAABrU9TLzIOUjJoAAA+8AAAAFZwb3N0AAMAAAAAP0gAAAAgcHJlcOutceIAAD9oAAALAAAAAAQAAAADAAAAJAABAAAAAAH2AAMAAQAAA8gAAwAIAAAFmgAEAdIAAABaAEAABQAaACAAQQBJAFAAYwBkAGUAaQBsAG4AdQCrALsEEAQXBBoEHAQfBCEEIwQwBDEEMgQzBDQENQQ3BDgEOQQ6BDsEPAQ9BD4EPwRABEEEQgRDBEQERgRLBEwET///AAAAIABBAEkAUABjAGQAZQBpAGwAbgB1AKsAuwQQBBcEGgQcBB8EIQQjBDAEMQQyBDMENAQ1BDcEOAQ5BDoEOwQ8BD0EPgQ/BEAEQQRCBEMERARGBEsETARP//8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoADAAoACoAKQAXADIAEAAuADAALwAxAC0AMwArACMAJwAVACIAJgABAAYAJAAHABwALAARAA8AEwAhABoACAASABYADgACAAQAGAAKAB4AGwAfABkACwAJAAAABAHSAAAAWgBAAAUAGgAgAEEASQBQAGMAZABlAGkAbABuAHUAqwC7BBAEFwQaBBwEHwQhBCMEMAQxBDIEMwQ0BDUENwQ4BDkEOgQ7BDwEPQQ+BD8EQARBBEIEQwREBEYESwRMBE///wAAACAAQQBJAFAAYwBkAGUAaQBsAG4AdQCrALsEEAQXBBoEHAQfBCEEIwQwBDEEMgQzBDQENQQ3BDgEOQQ6BDsEPAQ9BD4EPwRABEEEQgRDBEQERgRLBEwET///AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAAwAKAAqACkAFwAyABAALgAwAC8AMQAtADMAKwAjACcAFQAiACYAAQAGACQABwAcACwAEQAPABMAIQAaAAgAEgAWAA4AAgAEABgACgAeABsAHwAZAAsACQAAAAQB0gAAAFoAQAAFABoAIABBAEkAUABjAGQAZQBpAGwAbgB1AKsAuwQQBBcEGgQcBB8EIQQjBDAEMQQyBDMENAQ1BDcEOAQ5BDoEOwQ8BD0EPgQ/BEAEQQRCBEMERARGBEsETARP//8AAAAgAEEASQBQAGMAZABlAGkAbABuAHUAqwC7BBAEFwQaBBwEHwQhBCMEMAQxBDIEMwQ0BDUENwQ4BDkEOgQ7BDwEPQQ+BD8EQARBBEIEQwREBEYESwRMBE///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgBaAFoAWgAMACgAKgApABcAMgAQAC4AMAAvADEALQAzACsAIwAnABUAIgAmAAEABgAkAAcAHAAsABEADwATACEAGgAIABIAFgAOAAIABAAYAAoAHgAbAB8AGQALAAkAAAAEABoAAAACAAIAAAAA//8AAP//AAAAAgAABboAGQW6ABoFpwAZBCYAGAAA/+cAAP/oAAD/5/5p/+gFugAZ/mn/6ALqAAAAuAAAALgAAAAAAKgArQFpAK0AvwDCAfAAGACvALkAtADIABcARACcAHwAlACHAAYAWgDIAIkAUgBSAAUARACUARn/tAAvAKEAAwChAM0AFwBXAH4AugAWARj/6QB/AIUD0wCHAIUADQAiAEEAUABvAI0BTP91AFwA3wSDADcATABuAHABgP9Y/47/kv+kAKUAuQPI//0ACwAaAGMAYwDN/+4F2P/cAC0AXACVAJkA3wGSCbUAQABXAIAAuQOdAHIAmgNdBAH/Z//6AAMAIQB3AM0ABABNAM0BwAIrAEwAZQDnARgBfANDBdj/o/+w/8QAAwAcAF0AaACaALoBNQFHAiEFXP9N/80AFgAtAHgAgACZALIAtgC2ALgAvQDaAQwF8P+k//AAGQAsAEkAfwC0AM4BwAP+/YH+PwAAAAUAGAApADkASQBvAL4AxwDQASMBwQJvBQwFMgVABXr/1AAUADEAVQBXAKcAtADmAfcCfgJ+An8DxgRG/0IADgCFAJEAvwDCAMUA4QEaAS8BTwFWAikCbwKeA3IACAAsADEAMQBkAGkAiQCYAMcA3gErAbYCDALPA6MEqwT7Bh3+4P8OAAYAJgCbAJ0AwQENARgBIAFzAYIB1gHjAkMCXwKbAuIDlASpBNIHYQAcAF4AbQCNAKsA9wESATgBUQFbAWgBfAGHAZEBmQHNAdAB6AJBAlQCawLvA2gDcQO9BEIEQgRTBHMEgwWGBYsG6P5Y/sT+0f73/zL/hgBRAHwAgQCRAJUAngC0ALkAzwDZANkA3wDiAQUBCwEOAQ4BIAEhAVUBewF7AX4BjQGiAagBqQG0AdAB0AHiAekB8gH1AfsCAAIAAgYCGwIhAiICIgIjAnICdwKUApwCzwLPAtAC7AL5AxcDIgMrAzUDPANZA28DcQOHA5ADkAO1A+EEGgTPBP8FMgUyBZYFnwWoBasFwgXwBgwHgggACMz8o/0q/d7+AP6I/pb+sv60/+EAFQAZABoAHAAfADwAUQBhAGEAagB4AJYApQCvANMBDAEYARoBKgE+AUwBUQFfAWoBcQF4AYIBhAGaAaUBqAGpAa4BvAHNAdcB7wIAAg0CHAIhAiICLgI1AkICTwJPAl4CZQJxApACkgK0AtYC+gMHAwsDDwMVAyoDRwNdA2UDdAN5A5YDsAPMA90D4gP2A/wD/AP/BAoEHwQiBCYEKwRHBF8EdQSeBOcE5wVcBcsF5QYKBm0Ghga4BvEHNgc+B1AHUQddB48HtgfUCGAAtgDDALUAtwAAAAAAAAAAAAAAAAHgA4EDRQO1AI4CMwQZAs4CzgAtAF8AZANNAj8AAAKoAYgCfQG0AiQFeAY7AjsBTgDwBCYClALGAp8C9gI7A00BSwFTAGoCMQAAAAAAAAYUBKoAAAA8BMMA7QS8AmUCzgO1AHgGDAF+Au8GDACyAQACOQAAAcUDMAQrA8sA2gPfAQcEoQDbBAoBFwHtAqcDUAELAb0EPgVYACEDnACuA3EBfQC1AkUAAAr7CIwBKwFOAaoAhwBUATIB+AP/AAMCTgC0ADcD4wCDAGsC2ADtAHcAiACXAWQEZwCOADMBfADnAKYCngMpBW4GKgYVAckCaQSKAhMBtAACBKkAAAI5ASQBAwUUAIQBXQOaBu8C2QB1AM8ECgDeA6wEvALPAq4DTQTwBVIBaABtAH0AhgBx/4EAeQVYBNIBZwADAVYAJQTgAJQAfAMyBCEAlAB/AHIAXAAvALYAGAC6ALgAQQNNAHIAGAAfAEwBagFVAJkAmgCaAJgAsgAEAHgAaQAUAFcAbgDOALQGVAK4AGcFDgFlAOcAAATL/lIAWv+mAJn/ZwBu/5IALf/UAIf/fAC4AKgA5QCPAKgBhf57AHAAHgDZAN4BTAVGAs8FRv8tAooC2QJTApYAtwAAAAAAAAAAAAAAAAAAASUBGADqAOoArgBGAD4FuwCKBNcAUwA//4z/1QAVACgAIgCZAGIASgDkAG0A7gDlAEgDwAAz/k4Csf9GA3AAeQXfAFH/p/8fAQoAaP9sAE8AvAClBwUAYQcrQEFBQD8+PTw7Ojk4NzU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBACxFI0ZgILAmYLAEJiNISC0sRSNGI2EgsCZhsAQmI0hILSxFI0ZgsCBhILBGYLAEJiNISC0sRSNGI2GwIGAgsCZhsCBhsAQmI0hILSxFI0ZgsEBhILBmYLAEJiNISC0sRSNGI2GwQGAgsCZhsEBhsAQmI0hILSwBECA8ADwtLCBFIyCwzUQjILgBWlFYIyCwjUQjWSCw7VFYIyCwTUQjWSCwkFFYIyCwDUQjWSEhLSwgIEUYaEQgsAFgIEWwRnZoikVgRC0sAbELCkMjQ2UKLSwAsQoLQyNDCy0sALAXI3CxARc+AbAXI3CxAhdFOrECAAgNLSxFsBojREWwGSNELSwgRbADJUVhZLBQUVhFRBshIVktLLABQ2MjYrAAI0KwDystLCBFsABDYEQtLAGwBkOwB0NlCi0sIGmwQGGwAIsgsSzAioy4EABiYCsMZCNkYVxYsANhWS0sRbARK7AXI0SwF3rkGC0sRbARK7AXI0QtLLASQ1iHRbARK7AXI0SwF3rkGwOKRRhpILAXI0SKiocgsKBRWLARK7AXI0SwF3rkGyGwF3rkWVkYLSwtLLACJUZgikawQGGMSC0sS1MgXFiwAoVZWLABhVktLCCwAyVFsBkjREWwGiNERWUjRSCwAyVgaiCwCSNCI2iKamBhILAairAAUnkhshoaQLn/4AAaRSCKVFgjIbA/GyNZYUQcsRQAilJ5sxlAIBlFIIpUWCMhsD8bI1lhRC0ssRARQyNDCy0ssQ4PQyNDCy0ssQwNQyNDCy0ssQwNQyNDZQstLLEOD0MjQ2ULLSyxEBFDI0NlCy0sS1JYRUQbISFZLSwBILADJSNJsEBgsCBjILAAUlgjsAIlOCOwAiVlOACKYzgbISEhISFZAS0sS7BkUVhFabAJQ2CKEDobISEhWS0sAbAFJRAjIIr1ALABYCPt7C0sAbAFJRAjIIr1ALABYSPt7C0sAbAGJRD1AO3sLSwgsAFgARAgPAA8LSwgsAFhARAgPAA8LSywKyuwKiotLACwB0OwBkMLLSw+sCoqLSw1LSx2uAIjI3AQILgCI0UgsABQWLABYVk6LxgtLCEhDGQjZIu4QABiLSwhsIBRWAxkI2SLuCAAYhuyAEAvK1mwAmAtLCGwwFFYDGQjZIu4FVViG7IAgC8rWbACYC0sDGQjZIu4QABiYCMhLSy0AAEAAAAVsAgmsAgmsAgmsAgmDxAWE0VoOrABFi0stAABAAAAFbAIJrAIJrAIJrAIJg8QFhNFaGU6sAEWLSxLUyNLUVpYIEWKYEQbISFZLSxLVFggRYpgRBshIVktLEtTI0tRWlg4GyEhWS0sS1RYOBshIVktLLATQ1gDGwJZLSywE0NYAhsDWS0sS1SwEkNcWlg4GyEhWS0ssBJDXFgMsAQlsAQlBgxkI2RhZLgHCFFYsAQlsAQlASBGsBBgSCBGsBBgSFkKISEbISFZLSywEkNcWAywBCWwBCUGDGQjZGFkuAcIUViwBCWwBCUBIEa4//BgSCBGuP/wYEhZCiEhGyEhWS0sS1MjS1FaWLA6KxshIVktLEtTI0tRWliwOysbISFZLSxLUyNLUVqwEkNcWlg4GyEhWS0sDIoDS1SwBCYCS1RaiooKsBJDXFpYOBshIVktLEtSWLAEJbAEJUmwBCWwBCVJYSCwAFRYISBDsABVWLADJbADJbj/wDi4/8A4WRuwQFRYIEOwAFRYsAIluP/AOFkbIEOwAFRYsAMlsAMluP/AOLj/wDgbsAMluP/AOFlZWVkhISEhLSxGI0ZgiopGIyBGimCKYbj/gGIjIBAjirkCwgLCinBFYCCwAFBYsAFhuP+6ixuwRoxZsBBgaAE6LQACAAAAAAJYCAAAAwAHAAABAQEBAQEBAQAAAAACWAAA/a0CTgAA/bIAAAgAAAD4AAAFAAAH9gAAAAEACv/sBQ8FugAQAKFAPmYCAZsCAWgCAZwBkwMCAhACARADAQICHhAAFBACAxAAAwICHgUEFAUCAQUEAhAFAwgAC10KSggEAwMBAAINuAJIQBAICRABAAUDBAIgCgEKkwAEugFcAAABXLMCAhIRGRESOS8Y7e0ZEORdERI5ORI5OQAYP+0/PDwQPBD07RESFzmHCC4rBX0QxIcILhgrBX0QxIcIEMQxMAFyXQByXRMzAQEzAQYGIyInNRYzMjY3CsQB3gGiwf3aZ4R7S21OV0dnPgW6/H4DgvuM1oQjpi1bogABAIgAAAPOBCYABwBkQBkEKwAGBgMKAyUBQDM2NP8BAd8B/wECAU4JuP/AQBc0NjSwCfAJAh8JcAmgCbAJwAkFCQYlALj/wEASMzY08AABAAAgANAA4AAEAE4IEPZdcSvtEF1xK/ZdcSv9AD88P+0xMBMhESMRIREjiANGtP4itAQm+9oDkfxvAAIAh/5pBCEEPgASAB4Az0ClDBAtED0QSxAEPyCwIAIfICkMIx0yFTIdQh1wIJAgCDoXOhtKF0obWQhbDFwXXBtqCGsMaRBtF2sbwCDTFN0Y3RrTHuQU5B7gIP8gFiMEKxArFTUEOhBGBEoQWhDlC+sd/hALEQ4DFhwcBgcBBhYcDgsADhkk0AoBEApACmAKgAoECnQBEzMCMxIlAADAAQGQAaABsAHwAQQfAT8BTwEDARkfRzcYAStOEPRdcXI8TRD99OQQ/V1x7QA/P+0/P+0RORI5MTAAXQFdcXIAcRMRMxU2NjMyFhYVFAIGIyImJxEDFBYzMjY1NCYjIgaHpDqSaIjQanXfe1qPLhGmdnirp3Rzsf5pBb2KUVGM/5ij/vuLTDr9+wOkzcTL1cvK1///AIf+aQQhBD4AggADAABAAAAAAABAAAACAEr/6AQcBD4AKAA3AR1AjgkNCSoZDRoqKQ0qKjkNNhU3GzoqSSpdDV0qag1pKmAwig2GKZoWmxqpDRWmGaoothm7KMQZzyjSFd0oCEQWAR8XHxgrLCo0OQQ5LEkESCxWCFkrZghpK3YMhwzJDPkN+SsRNzQOAQQQLyQ0FzIhFBhfKW8pAikcLw4/Do8Onw7/DgWfDq8O7w4DDg4cAxe4AqpAFhiVFBwcBwBFJwoyHAMLKWEQYQAlISS4AltAECdAACYQJiAmMCavJgUmMTm4/8BAHx4jNDA5wDkCoDkBORclGCIvJL8GzwYCHwY/BgIGMTgQ9l1x7fTtEF1xK/Zd7fQ8/eXlAD/tP+Q/7f3kERI5L11x7XEREjkREjk5ARESFzkxMABdAXFdAHElBgYjIiY1NDY2NzY3Njc2NTQnJiMiBgcnPgIzMhYWFxYVFRQWFyMmAwYHDgIVFBYzMjY3NjUDPGS5aq+8R3NINWvaZwEzRYh/eR2wGG7QiYiqUBAJFyK8HBdixG9cMm1paKImHYNVRquFToFOFA4NGiQlCm4tPVlxGHGLS0BhSi548PuFPTgB3SgcEChNL0hgW089d///AEr/6AQcBD4AggAFAABAAAAAAABAAAADAIgAAAPwBCYADwAZACMAvEAkDyUvJQJGCAgQIwgFHhArIyMPGSsABhorDwoVJNAFAQWqHiQLuP/AQBMkJTQwCwEACxALIAsDCzHfJQEluP/AQA0eIzQwJQElGRolD0UkEPb9PBBxK132XV0r7fRd7QA/7T/tEjkv/QEREjkAERI5MTBDeUAzAiETJQMlICYSBxUbARcCFRsBHA0eGwEhCR4bARQGERsABxYEGBsBHQwbGwAfCiIbAQkIEDwrKys8KwErKysrKysrgQFdEyEyFhYVFAYHFhYVBgYjIRMzMjY2NTQmIyMRMzI2NzQmJiMjiAGfmZVrPz9LYwrEu/4htMBzVkR3kMbtmXIDQmp12gQmM4hfTHEmGYlel5ICZxhJM1RC/QNHVzNXFwABABj/+QQjBCYAEgCGQBocCAUrAAYDMwwOHAoKAyUCQDM2NP8CAQJOFLj/wEAqNDY0sBTwFAJAFGAUcBSgFLAUwBQGFAUlTxJfEm8ScBLfEgUSuwwMFBN8uQEKABgrERI5L/Rd7RBdcSv2cSvtAD/tEOQ/7TEwQ3lAEg8RBwkIJhAlDwkSGwERBw4bACsBKysrgYETIREjESERFAYGIyInNTMyNjY13wNEs/4jGGxmP1JPODAQBCb72gOR/e+5dlgIlhcyigACAB8AAAPLBCYAEgAbAKJASAQJHQg0DEQMWwhUDNQMB3kLASQIDAIKBggIJQkLFAkJCwsMBgkDDAwbkgMDAhQrEgYJCAgCCgsGCAMJEwIlAE4dCSgXJA+RHBD27RnkGBD2/TwRFzkAPzwQPD/tEjkv7Rk5LxESORE5hwUuGCsOfRDEARESOTEwGEN5QBgNGRkNFxsCFREXGwAYDhobAA0MFhAUGwEAKxA8KwErK4EBXXEBESMRIyIGBwcjEzY3JiY1NDYzBSEiBhUUFjMzA8uzaF9dWZ3fwllYmpXDuQE5/wChXYmuxwQm+9oBnjGF6AEegxEVtHWKrJVkQ19ZAAEAJgAAA4UEJgAHAE9AEy8JMAlACV8JoAkFAgcrAAYFCge7AVcABAACAVdAHgQlAAUQBVAFsAXABQUABVAFYAWgBbAFBQAFoAUCBS9dcXLt7RDtAD8//TwxMAFdEyEVIREjESEmA1/+qrP+qgQmlfxvA5EAAgCEAAAD7AQmAAoAEwCfQBAfCAIrExMKAAYLKwoKDyQGuP/AQDckJTQwBgEABhAGIAYDBjEfFT8VXxV/FZ8VrxW/Fd8VCA8VAQ8VjxWvFb8VzxXfFe8VBxUBCyUAuP/AQBIzNjTwAAEAACAA0ADgAAQAThQQ9l1xK/08EHFyXfZdXSvtAD/tPxI5L/0xMEN5QBYEEQ0IDxsBEQQPGwEOBwwbABAFEhsBKysBKyuBEzMRMzIWFRQGIyE3MzI2NTQmIyOEtOTf8cnd/j60vauSbLnVBCb+Ya2Yhb2UVFlFbAACAET/6AQnBD4ADQAZAMFAXRIHChkMRwZICFYGWQhnBmkICDQQOhI6FjUYRRBLEksWRRhcBVwJUhBdEl0WUhhtBW0JZBBtEm0WZBh3ARUJBgUNWwNUBVQKWwxsA2UFZQpsDAoXHAQHERwLCxQkB7j/wEATJCU0MAcBAAcQByAHAwcx3xsBG7j/wEAZHiM0MBsBGw4kAEAkJTQfAD8AAgAxGjQ3GCsQ9l0r7RBxK132XV0r7QA/7T/tMTABcV0AcUNcWEAJUwVTCWIFYgkEAV1ZExA3NjMyABUUBgYjIgATFBYzMjY1NCYjIgZEpInF2wEWe+uL3/7tubKHhrKzhYeyAhMBJ452/uH9zeuCAR4BDczLzNHFy8r//wBE/+gEJwQ+AIIADQAAQAAAAAAAQAAAAQAy/+gDYgQ+ACYA9UBd1AkBEChVHYAJhAyCHQUIGQE7CBIAARqPABtQG2AbcBuwGwXQGwEbGx4AC48PCn8KAgoKCEABAQFIkACgAAIAABgISA0HHkgYCxIQIQEBBQrJC48byRoFJBCPISQVuP/AQBkkJTQwFQEAFRAVIBUDFTEoQBoBjxqwGgIauQJbACcQ5l1xEPZdXSvt9O0Q7fT9ETkvERI5AD/tP+0SOS9d7XEROS9d5BESOS9xXeQREjkxMEN5QCofJBMXDg8GByMmBw4FGwEfFyEbASQTIRsDBg8IGwEgFh4bACIUJRsBExIQPCsrKwErKysrgYGBgQBdAV1xATU+AjU0JiMiBycSITIWFRQHFhYVFAYjIAM3FhYzMjY1NCYmIyIBcnJTSmFNmD2rUAEyqsF+UFDQu/6VOqkXjVtbeUxWcQkB4I0BEFA8SVezHAEruoGCTSuFW4+yAUMkZnBnUD5cFwACAEv/6AQeBD4AFQAdAN5AZB8AHBUCVQNdBV0JVQtlA2sFbwllCwgQABABEAInEtkF+hT2GgcxEjoZMRxBEk0aQRxRElwZUhxhEm0aYRx4BngV9gL2GBAAFgEPDRcXUBZgFnAWAxYcD5AQoBACEBAEGxwKBwC4AqpACQGVExwECxdADbj/wEAJJyo0sA0BDRofuP/AsyUmNB+4/8BAHR4jNDAfAR8WMxAkB0AkKjQfBz8HTwcDBxkeNDcYK04Q9F0rTf3kThBxKyv2cStN7QA/7f3kP+0SOS9dPP1xPAEREjk5EjkxMAFdAF0BcXIBFwYGIyIAERAAMzIAERQHIRYWMzI2ASEmJyYjIgYDXros7rnp/u8BFNzVAQ4B/OgKsoVjjP3aAlEMOFaJfKkBVhejtAEfAQMBDAEo/t7++RAgr7poAZWGQ2im//8AS//oBB4EPgCCABAAAEAAAAAAAEAAAAEAjAAABPQEJgAMAPVAcg4CtQrFCgMSAhsHAgQBDAMDCAwJRgFKA0UISglWCFoJhAGPA4EIjwnQAd8D0AjfCfUI+gkUCAkZAhsJeAJ4CYgJlAGbA5QImwmkAasDtAG7A7YIxAHLA8YIEgUICgkUARoDFggbCZUBmQKaA5UIngkLAbj/9kBIAQoJCSsCARQCAgEDBwgIKwIDFAICAwoHAgMLAwEGCwkJCAgGCgIJCAEDBQYLBgclBE6ADrAOwA4DDj8OAQsKJQAAIAACAE4NEPZd/TxdEF32/TwREhc5AD88EDwQPD88Ehc5hwUuK4d9xIcuGCuHfcQxMAE4AXJdcQByXRMhAQEhESMRASMBESOMARgBFwE2AQO0/sah/tewBCb8rgNS+9oDV/ypA4D8gAABAIcAAAPwBCYACQCVQDgZAxQIAlYCZwJ7B4QCjQcFAwcICCsCAxQCAgMCBwgDAQYIBgoDCAYCByUEQDM2NP8EAf8EAQROC7j/wEAXNDY0sAvwCwJwC4ALoAuwC8ALBQsCJQm4/8BAEjM2NPAJAQAJIAnQCeAJBAlOChD2XXEr7RBdcSv2XXEr7RESOTkAPzw/PBI5OYcFLiuHfcQxMABdAV0TMxEBMxEjEQEjh7QB88K0/g3CBCb81gMq+9oDJfzbAAEAmAAABg8FugAQAXVAfwACDwgUAhsIBHYMhgzIDAMJDEkMSQ8DKQQlDSwOWANbBHYNeA6HDQgLAgUIOQ02Dk8CSwNEB0AITQ1CDgqYApkDlgeWCKgDpwcGEgIPDg4wBQIUBQUCCAwNDTAFCBQFBQgMUg9SAUABAgIICAkKCwsNDQ4OEAAICQJgEoASAhK6AqgADQExsgUgCLgBMUAKDAkKIEAMfwsBC7oCVgAOAQuyBSACuAELQAkPAQAgD3AQARC4Ala3IAVgBYAFAwW4AqizETtZGCsZEPRd9F08GP08EO0aGRDt9F08Ghj9PBDtGhkQ7eRdABg/Pzw8EDwQPBA8EDwQPBA8GhDt7YcFLiuHfcSHLhgrh33EMTAAS7ALU0uwHlFaWL0ADP/7AAj/1gAC/9Y4ODhZAUuwDFNLsChRWli5AA3/+LEOCjg4WQFDXFi5AA3/1LYhOQ4sITkNuP/Utjc5DjI3OQ24/9S1LTkOLC05KysrKysrWXJxXQBxXQFdMxEhARYXNjcBIREjEQEjARGYASQBWzAWGTUBXwEFu/5Wr/5YBbr78pFIUJsD/PpGBMv7NQTg+yD//wCYAAAGDwW6AIIAFAAAQAAAAAAAQAAAAQCIAAAD4wQmAAsAc0Ag0A3gDQICKwkJBAEGCgcKBAclBUAzNjT/BQH/BQEFTg24/8BAFjQ2NLAN8A0CcA2gDbANwA0EDQEKJQC4/8BAFDM2NPAAAQAAIADQAOAA8AAFAE4MEPZdcSv9PBBdcSv2XXEr/TwAPzw/PDkv7TEwAV0TMxEhETMRIxEhESOItAHztLT+DbQEJv5GAbr72gHX/ikAAQBQ/+gD7QQ+ABoAzUBHCQwBHxxDE0MXUxNTF2ATYBebApsDmg2kEKQaDAgNGQpqAmkDagV1DHANgA2mDLUJtgq1DAwWDIYM4wIDDiJfD28Pfw8DDwG4AqpASTAAQABQAGAAcACQAKAA4ADwAAkADw8LAAAEEhwLBxgcBAscDwEPJA4iGwABACQLKx8BAQABAQFJHBUkzwcBHwc/BwIHMRs0xBgrEPZdce0Q9l1yS1MjS1FaWLkAAf/AOFntcvTtcgA/7T/tEjkvETkvEF3kEF3kMTAAXXEBXXEBFwYGIyIAETQSNjMyFhcHJiYjIgYVFBYzMjYDPLEd767a/vdy6Ymt3B+vGX9aiKqkhGqOAYUXt88BHQEKrAECga+hG2tsw9PWwoL//wBQ/+gD7QQ+AIIAFwAAQAAAAAAAQAAAAwCLAAAFLgQmAAMADgAXAIZALx8IBisXFwMFAAYPKw4OAwoTJFAKkAoCDwoBYApwCoAKwAoECgoPAyUBThkFDyUEuP/AQBIzNjTwBAEABCAE0ATgBAQEThgQ9l1xK/08EPb9ETkvXXFy7QA/PBDtPzwSOS/9MTBDeUAWCBURDBMbARUIExsBEgsQGwAUCRYbASsrASsrgQEzESMBMxEzMhYVFAYjITczMjY1NCYjIwR6tLT8EbTk3/HJ3f4+tL2rkmy51QQm+9oEJv5hrZiFvZRUWUVsAAEAhgAAA5AEJgAdAOhAYT4FPwY/B0QFRBeUFwYNBi8ELAUvBi8fTAZeBnoHiweWBgpLBEsGmwSbBqsEqwa7BLsGywTLBgofHz8fewR7Bo8EjwYGBBEGDxgXFyUWFRQWFhUGBAkCEQ8EBgQMFRgcEwK4AQxAKhsbFgEMSAkJAQYcFxcWCgQGExEPBQsYFRcDHAuqABYBFkkgHwEfARwlALj/wEASMzY08AABAAAgANAA4AAEAE4eEPRdcSv9PBBd9V3kEhc5ERc5AD88EDw/PBDtERI5L+05Ejk5Ehc5ERI5OYcFLisOfRDEAREzETNdcTEwAV1xEzMRMjY3PgIzMxUnIgcGBwYGBxYXEyMDJiYjESOGtFZFQzVCVl8kMkcUFSspREd0cMXGwDtYPbQEJv41Qp9+UByVARUWbWhQIR+5/rcBSWM//hUAAwBL/mkGSgW6AB0AKQA1ANpAalgSAQQGBAoLFQsZDzcfN1sDXA1VElMcWSBZIlkmVSxWLlU0agNqDWUSZBxqIG4ibiZoKGYsZS5mNHkDdgZ5DXYSdhyDBokNhRIjHjABACczMxwFGgchMy0cCxQLEA4AAAEPJQAQEBckJAi4/8BAJCQlNDAIASAIAQgxADdAN1A3YDeAN5A3BgA3IDcwN0A33zcFN7j/wEAWHiM0MDcBNyokF0AkJTQfFz8XAhcxNhD2XSvtEHErXV30XV0r7RI5Lzz9PAA/Pz88/eQ/PP3kARESOTkxMF0AXQEzETY2MzISFRQCIyImJxEjEQYGIyICETQSMzIWFxMUFjMyNjU0JiMiBgUUFjMyNjU0JiMiBgLxtDiGTb3d7rE6eFS0NoNMp/riv1CCM7OEY26bj3B4ef1el3B1dHp7b4wFuv4FQD/+xe/5/s0kUP4NAfM6OgElARHnATk/QP5Q8KXL1srGzrrhxsXF0tLNAAEAiAAAAusEJgAFAB5AEAMrAAYFCgEHBCUAAAEARQYQ9l3tEDwAPz/tMTATIRUhESOIAmP+UbQEJpX8bwABACH+UQPuBCYAGgGHsw8cAQ+4/95ApBw5KBRWD68KA0ANQA8CDyAoMDQQICgwNAcMCRIWDRgSJwsnDCcNNgw2DTUOmRELKBIoE0gWWRJZE1kVaRJpE2kVeQZ2DXkRehR6FYUNihGMEowTiRSYCqgLvBC7EboU6grnFPUN/RD5FP8cHhIPDwwQERISCgADGRQTEyUSChQSEgoPDA8RDCULChQLCwoTEhIMDAsGAxwZDwAcEBwCLxy/HAIcuAI/tQ8TQBJAFLgCVEALPxJAEgJfEr8SAhK4AUK2DwEiAEUbCrgCVEASDyALQEAgDDAMTwwDUAz/DAIMuAFCsy8PAQ+4Aj+0GyB8ZhgrGhkQ/XH0XXEaGO0aGRDtGBD05BkQ5F1x7RoYEO0ZEORdcQAYP+0/PBA8EDyHBS4rCH0QxIcFLhgrDn0QxAAREjmHDhA8PAjES7AOU0uwGFFaWLsADP/oAAv/6AE4OFkxMAFDXFi5ABT/3rY3OQoiNzkOuP/otRU5ESIVOSsrKytZXXErKwBxXSsBXRMnFjMyNjc2NzY3ATMTFhc2NxMzAQYHBgYjIn8UOyw8SBcRJgUL/m3C3SsiHyvjtP5sQSQwfFY0/mepECgkG2sPHQQo/Zl1gXx2Amv7yK9CWVP//wAh/lED7gQmAIIAHQAAQAAAAAAAQAAAAQCK/tMEWAQmAAsAWkATXw0BBAEGBwIrCwoJDgMlBgkrB7gBDEAQkAYBYAaABsAGAwZODQIlALj/wEASMzY08AABAAAgANAA4AAEAE4MEPZdcSvtEPZdcvztEO0APz/9PD88MTABXRMzESERMxEzESMRIYq0AfK0dJT8xgQm/G4Dkvxu/j8BLQABAC4EtQJ9BbgADQBLs1UCAQu4Ap9ADBAEfwQCBAcICAAACLsCnwAHAAACn0APQAG9BOwgBxkOEAQBm0EYK11OEPQaGU39/RoY7RDtAD88EDwvXe0xMAFdATMGBiMiJiczFhYzMjYCAnsPmX+AmQ97DlNGUVMFuH2GhX5EQ0H//wCHAAAD8AW4AKIAEwAAQAAAAAAAQAABgwAgAPYAAEAAAAAAAEAAABZACgEAEQsABEEBAQ65AiIAKQArASs1AAEAoAAABSEFugAHAEy5AAn/wEAaExU0AwcIBR4AAgMgAjkPCYAJAgkGICAHAQe4/8BAEhMVNAddCCAJASAJUAlgCXAJBF1xEPYrXe0QXfbtAD/tPzwxMAErEyERIxEhESOgBIHD/QTCBbr6RgUN+vMAAQBO/+cEggXTACYA6EBTThnEAwIGHzkORh5lIXUepR8GBxlLHloedAMEwAHBFssXyBgEKAgfC0AfUB9gH3AfgB8FHx0MF+M/GE8YXxh/GAQYGCUaAeMwAEAAUAADAAAaJQy4AkizCgolE7gCSLIaAwS4AkhAHSUJCwsXECafHa8dAh1LByYgIgEiXCgXJhhiASYAuQExACcQ9O307RD2Xe30Xe0ROS8AP+0/7RI5L+0REjkvXeQREjkvXeQBERI5XQASOTEwQ3lAHCMkGxwREgUGEhsQNgEFJAc2AREcEzYBBiMENgArKwErK4GBgYEAcV0BXXETNxYWMzI2NTQmIyM1MjY2NTQmIyIGBhUnEiEyFhUUBxYWFRQEIyBOuRW3l5qyvKJdho5tlX9vnTy6RQG/1/zCcJf+2/L+YAGeMGvWnnB5j6kff1Fgjm+3LSoB0++gzXEfv4W9/wACAFv/6AREBd0AHAAoAJVAOTkKNSU5J0kKRiVIJ1kOWRFVFVsfUSVcJww9GAEJICYJIxcAMwGPBRwaACAcDAcmHBMLAJIBmh0kD7j/wEAQJCU0MA8BAA8QDyAPAw8xKrj/wEAZHiM0MCoBKoAqASMkF0AkJTQfFz8XAhcxKRD2XSvtXRBxK/ZdXSvt9O0AP+0/7T/t9OQBERI5ABESOTEwAHEBXQEXDgIjIgYGBzY2MzIAFRQGBiMiJgIREAAhMjYDNCYjIgYVFBYzMjYDkZ8LSXOo36JHBES2ctEBEoq9o73ScAEdASi4MgKdj5Wis4OGpwXdAmtUGFa9lWVl/uH1uu6CrQEOAU8BpQEkDPxQptTgu7nE4wABAGb/5wV2BdMAHQC4QGBjAmodAiAAMg1jAHAAdB2AAIQdkACaBasDpQ25A7QNxw3QAOQd8x0RDhIdER0dAyoGKBEqHCAfRw1WFFcVVhloBWsdexKLEpoDmQ6aHKgBpAKoEdUOEwAUABoQFBAaBAK4/96yKDkBuP/AQCcoORAPAAEEGxMeDAMbHgQJECYPSgAmIAEBARofFyYgCAEIGR5jXBgrThD0XU3tThD2XU3t9O0AP+0/7REXOTEwASsrXV1xAF0BcgEXBgQjIiQCNTQSJDMyBBcHJiYjIgYCFRQSFjMyNgS0wj3+w+Xt/tebrwFDwtwBLDu/M8KTqeNcbeaGo+ICAjHv+8EBbtLlAVWx4MstoJKi/u+Ru/7pirz//wBm/+cFdgXTAIIAJQAAQAAAAAAAQAAAAQChAAAEogW7ACEAskA9ixmEGwIKBx0HLAcvI3YYiQeNHgc6EzoVOB0DBgQEJRUTFBUVExwbGyAaGRQaGhkZHB8bBgQJAhMVEBcXArgCXbMfHyEQuAJIQCMJewACGhsbIQgbHBkDGgYEFxUTAyCQCwELLRotIwEgICE5IhD2/TwQ9uRxERc5OTkSFzkAPzwQPD/07RI5L+0ZOS8SOTkREjk5ERI5OYcFLhgrDn0QxIcOLhgrDn0QxDEwAF0BXXETMxEyNjc+AjMyFxUiJyYjIgcGBwYGBxYXASMDJiYjESOhwoVsVD1PklhwBgodIAddLS47SmZHjooBLvH1ZYhswgW6/X5nxJB3UQKoAQEtLZO6YR0n3/4YAY6le/1SAAL//QAABVkFugAHAA4BHkBjLxAwEGcIaAlgEIgDkBDJBcYGwBDwEAsIBVkBVgJQEGgLsBDzDPMN8w4JBAwEDQQOAwsKCQUEBAwNDggGBwcMCQUECAYMBwEAACAHDBQHBwwCAwMgBAwUBAQMCR4FBQgeBgMGuAJwQAkACAzpQAIBAgK6AQsAAQELQBIMIABlBwNSUATPBN8EA5AEAQS4AQFAC1AMwAffDAOQDAEMuAEBQBAPB88HAn8HgAcCB5MP1tcYKxD0XXEZ9F1x9F1xGO0Q7RoZEO3tABg/PBrtP+Q8EO08EO2HBS4rfRDEhy4YK30QxAEREjk5ETk5hxDExA7ExIcFEMTEDsTEMTABS7ALU0uwHlFaWLQEDwMIB7r/8AAA//g4ODg4WQFycV0jATMBIwMhAxMhAyYnBgcDAjPRAljdq/2bodkB8ZlGIhwzBbr6RgG8/kQCWgGWuXeNiwACAJ4AAAT9BboADQAYAFdANWURaxQCSxBLFFsQWxQECwweDw4OABcYHgIBAgAIEiYIGiAaASAaARoYDSABIAABAF0ZO1wYKxD2XTz9PE4QcV32Te0APz88/TwSOS88/TwxMAFdAF0zESEyFx4CFRQCISERESEyNjU0JicmIyGeAimSTWySWe7+yf6IAXu8nl1MMYT+iQW6DhJltm27/v39rAMBjH9cgxUNAAEAvwAAAYEFugADAJS1AQIACAIFuP/Aszg9NAW4/8CzMzQ0Bbj/wLMtMDQFuP/AsygpNAW4/8CzIyU0Bbj/wLMdHjQFuP/AsxgaNAW4/8BALw0QNCAFkAWvBQMDIAEAAI8AoACwAAQvAEAAUADfAPAABRIgAI8AkAADAKIE1lkYKxD2XUNcWLKAAAEBXVlxcjz9XSsrKysrKysrPAA/PzEwMxEzEb/CBbr6Rv////0AAAVZBboAggAoAABAAAAAAABAAAACAAD+0wRsBCYADAARAIBAWA0rAAYFCQ8DCisHCg2SjwABAEAPyQALEAsgCwMLCwgJECUPAgEPAs8CAgICBSsfAz8DnwOvA78D3wPvA/8DCE8DjwMC3wMBA04TCCsJ3wkBDwkBHwkBCRIQPF1xchDtEPZycV39OS9dce0REjkvXe30Xe0AP/08PC88P+0xMAEhETMRIxEhESMRMxITAgchEQEVAuRzlPy8lF++jhSMAjsEJvxu/j8BLf7TAcEBAgH7/fv4Av0AAgCGAEgD3wPYAAUACwCEQAsJAw0JGQMdCQQKBLgBy0ALCAII+QcHC/kKdQa4/8CzGRw0Brj/wEAbDxE0Bq4JQBkcNAlADhE0CZ8AAugBOgX5BHUAuP/AsxkcNAC4/8BAEg8RNACuAAMQAyADAwOsDK95GCsQ9l39Kyv2/fTtEPYrK/0rK/b9PBD9AC88/TwxMAFdAQEjAQEzEwEjAQEzAVQBA5L+wQE/lH4BCJj+xwE5mAIQ/jgByAHI/jj+OAHIAcgAAgCIAAABPAW6AAMABwB9QF1PCZAJoAmwCcAJ3wnwCQcACR8JcAmACZ8JsAnACd8J4An/CQofCQEAAQcEAgMJBgN+AQAGBQYECgYHJQUABJ8EoASwBMAE4AQGwATwBAIABCAE0ATgBAQETghHUBgrEPZdcXI8/TwAPz88P+0BERI5ORESOTkxMAFdcnETNTMVAxEzEYi0tLQE68/P+xUEJvvaAAEAhwAAA+YEPgAWAMxAEwUDBhMCqBC4EOMD5xPwA/YTBgS4//BAMQsNNHkQAZgQ0BjgGP8YBCAIFA4UFhIcBQcBBhYNCg0ODA4kC0AzNjT/CwH/CwELThi4/8BAGjQ2NLAY8BgCcBigGLAYwBgEGAMCMxUWJQEAuP/AQBIzNjTwAAEAACAA0ADgAAQAThcQ9l1xKzz9PPQ8EF1xK/ZdcSvtPBA8AD88Pz/tETkBEjkxMEN5QBYGEQkKCAoHCgMGECYRBg4bAQ8KEhsBACsBKysqgQFdcQArXXEzETMVNjMyFhYXFhURIxE0JiYjIgYVEYeidd1goVAQCrQqa0hzpwQml69FcE0yff1zAoZubUGSzP28AAEAgwAAATcFugADAIy5AAX/wLM3ODQFuP/AszQ1NAW4/8CzMDE0Bbj/wLMiJTQFuP/AQCUVFzQPBR8FnwXfBQRPBd8F8AUDHwVwBYAF/wUEAQAACgIDJQEAuP/Aszc4NAC4/8BAGjM1NJ8AAcAA8AACAAAgANAA4AAEAE4ER1AYKxD2XXFyKys8/TwAPz8xMAFdcXIrKysrKzMRMxGDtAW6+kYAAQCD/+gD4AQmABgAvbkAGv/AQAkVFzQCIBMWNA+4//BAKRIUNCsTASQIExYMARMWCwYAChEcAwsAMxYlGBdAMzY0/xcBwBcBF04auP/AQBU0NjSwGvAaAnAaoBqwGv8aBBoMJQm4/8BAFTM2NPAJAQAJIAnQCeAJBAlOGUdQGCsQ9l1xK+0QXXEr9l1xKzz95AA/7T8/PDk5ARESOTEwQ3lAGgQQDg0PDQIGBwgGCAUIAwYQBAwbAA0IERsAACsBKyoqgQBdASsrKyE1BiMiJiYnJjURMxEUFxYWMzI2NjURMxEDP3zVXqNPEAu0CxFuUVGOO7SctEhtTzVzApL9s40xR1FTj4gCOfvaAAIARv/oA98FugARAB0A1kCrCgIEDSUNNA1EDQU1FDUcVwJUClIUUxxnAmQFZQljFGAcwB/UBdUT3RnlE+UU7xfrGeUd4B//HxYfHysaPBY8GksacB+QHwcuAiQNLhY6AjUNSwJFDUYUSRxXClYNZw3lBucW+gH0DhABFQMOCxAPABscCwcRAAoVHAMLGDMBACURDyUQENARARARQBFgEYARBBF0EiS/B88H3wf/BwQfBz8HTwcDBxkeNFAYK04Q9F1xTe39XXE8EO0Q/TzkAD/tPzw/7T88ETkREjkxMABdAXFdAHEhNQYjIiYmNTQSNjMyFhcRMxEBFBYzMjY1NCYjIgYDOGXEf9V1atSDYJYvs/0grHV2pah7eKGGnoz7o58BA4pRQQIO+kYCEszKwcbazMQAAgCMAEgD5QPYAAUACwCAQAsGAwIJFgMSCQQBB7gBy0AYBQsKCPkHBwv5CnUGQBkcNAZADxE0Bq4JuP/AsxkcNAm4/8BAIw4RNAmfAAL5AToF6AR1AEAZHDQAQA8RNACuDwMfAwIDrA2duQGGABgrEPZd/Ssr9v307RD2Kyv9Kyv2/TwQ7RAALzz2PDEwAV0BATMBASMDATMBASMDF/77lAE//sGTf/74lwE6/saXAhAByP44/jgByAHI/jj+OAABAAAAAAAAkjtrd18PPPUIGwgAAAAAAOT/HRoAAAAA5P8dGvqv/WcQOghMAAAABgABAAEAAAAAAAEAAAc+/k4AAAaq//3/8AZKAAAAAAAAAAAAAAAAAAAAAAA0AlgAAAUVAAoEVQCIBHMAhwRzAIcEcwBKBHMASgRAAIgEqwAYBFUAHwOqACYEKwCEAjkAAARzAEQEcwBEA6sAMgRzAEsEcwBLBYAAjAR4AIcGqgCYBqoAmARrAIgEAABQBAAAUAXAAIsDgACGBpUASwLrAIgEAAAhBAAAIQSVAIoCqgAuBHgAhwXAAKAE1QBOBJUAWwXHAGYFxwBmBKkAoQVW//0FVgCeAjkAvwVW//0EqwAABHMAhgHHAIgEcwCHAccAgwRzAIMEcwBGBHMAjAAAAAAAAAA4AAABGgAAAaMAAALTAAAC6wAABK0AAATFAAAF8QAABrcAAAe1AAAIKQAACQkAAAkJAAAKIQAACjkAAAujAAAM7AAADQQAAA40AAAO9gAAELEAABDJAAARawAAEpEAABKpAAATfwAAFMgAABZDAAAWgAAAGGcAABh/AAAZCAAAGYcAABnHAAAaOAAAG5MAAByqAAAdyAAAHeAAAB7+AAAgXgAAIQgAACG0AAAhzAAAIpMAACNWAAAj+QAAJQ0AACWxAAAmvQAAJ/EAACiwAAEAAAA0EAAEAAD/AP8AAgAQAC8A/wAABAwK/QD/AB4AAAAOAK4AAQAAAAAAAQAMAAAAAQAAAAAAAgAHAAwAAQAAAAAAAwAMABMAAQAAAAAABAAMAB8AAQAAAAAABQAMACsAAQAAAAAABgAHADcAAQAAAAAACgAXAD4AAwABBAkAAQAYAFUAAwABBAkAAgAOAG0AAwABBAkAAwAYAHsAAwABBAkABAAYAJMAAwABBAkABQAYAKsAAwABBAkABgAOAMMAAwABBAkACgAuANFKVlBQUEErQXJpYWxSZWd1bGFySlZQUFBBK0FyaWFsSlZQUFBBK0FyaWFsVmVyc2lvbiAyLjgyQXJpYWxNVFdSRUFQSytBcmlhbDI3NTU3Mm9iajE5AEoAVgBQAFAAUABBACsAQQByAGkAYQBsAFIAZQBnAHUAbABhAHIASgBWAFAAUABQAEEAKwBBAHIAaQBhAGwASgBWAFAAUABQAEEAKwBBAHIAaQBhAGwAVgBlAHIAcwBpAG8AbgAgADIALgA4ADIAQQByAGkAYQBsAE0AVABXAFIARQBBAFAASwArAEEAcgBpAGEAbAAyADcANQA1ADcAMgBvAGIAagAxADkAAAAAAQOIAZAABQAIBZoFMwAAARsFmgUzAAAD0QBmAhIIBQILBgQCAgICAgQAAHqHgAAAAAAAAAgAAAAATW9ubwBAACD//Ac+/k4BMwc+AbJAAAH///8AAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBIwAPAxcA7wMXAP8DFwADAB8DFwAvAxcATwMXAF8DFwCPAxcAnwMXAAYADwMXAF8DFwBvAxcAfwMXAL8DFwDwAxcABgBAAxeykjNAuAMXsoszQLgDF7NqbDJAuAMXsmEzQLgDF7NcXTJAuAMXs1dZMkC4AxezTVEyQLgDF7NESTJAuAMXsjozQLgDF7MxNDJAuAMXsy5CMkC4AxezJywyQLgDF7MSJTKAuAMXswoNMsBBFgMWANADFgACAHADFgABAsQADwEBAB8AoAMVALADFQACAwYADwEBAB8AQAMSsyQmMp+/AwQAAQMCAwEAZAAf/8ADAbINETJBCgL/Au8AEgAfAu4C7QBkAB//wALtsw4RMp9BSgLiAK8C4gC/AuIAAwLiAuIC4QLhAH8C4AABAA8C4AA/AuAAnwLgAL8C4ADPAuAA7wLgAAYC4ALgAt8C3wLeAt4ADwLdAC8C3QA/At0AXwLdAJ8C3QC/At0A7wLdAAcC3QLdABAC3AABAAAC3AABABAC3AA/AtwAAgLcAtwAEALbAAEC2wLbAA8C2gABAtoC2v/AAtOyNzkyuf/AAtOyKy8yuf/AAtOyHyUyuf/AAtOyFxsyuf/AAtOyEhYyuALSsvkpH7gC47MgKx+gQTAC1ACwAtQAAgAAAtQAEALUACAC1ABQAtQAYALUAHAC1AAGAGAC1gBwAtYAgALWAJAC1gCgAtYAsALWAAYAAALWABAC1gAgAsoAIALMACAC1gAwAtYAQALWAFAC1gAIAtCyICsfuALPsiZCH0EWAs4CxwAXAB8CzQLIABcAHwLMAsYAFwAfAssCxQAXAB8CyQLFAB4AHwLKAsayHh8AQQsCxgAAAscAEALGABACxwAvAsUABQLBsyQSH/9BEQK/AAEAHwK/AC8CvwA/Ar8ATwK/AF8CvwCPAr8ABgK/AiKyZB8SQQsCuwDKCAAAHwKyAOkIAAAfAqYAoggAQGofQCZDSTJAIENJMkAmOj0yQCA6PTKfIJ8mAkAmlpkyQCCWmTJAJo6SMkAgjpIyQCaEjDJAIISMMkAmeoEyQCB6gTJAJmx2MkAgbHYyQCZkajJAIGRqMkAmWl8yQCBaXzJAJk9UMkAgT1QyuAKetyQnHzdPawEgQQ8CdwAwAncAQAJ3AFACdwAEAncCdwJ3APkEAAAfApuyKiofuAKaQCspKh+AugGAvAGAUgGAogGAZQGAfgGAgQGAPAGAXgGAKwGAHAGAHgGAQAGAuwE4AAEAgAFAtAGAQAGAuwE4AAEAgAE5QBgBgMoBgK0BgHMBgCYBgCUBgCQBgCABN0C4AiGySTNAuAIhskUzQLgCIbNBQjJAuAIhsz0+Mg9BDwIhAD8CIQB/AiEAAwC/AiEAzwIhAP8CIQADAEACIbMgIjJAuAIhsxkeMkC4AiKzKj8yQLgCIbMuOjJvQUgCwwB/AsMAjwLDAN8CwwAEAC8CwwBgAsMAzwLDAAMADwLDAD8CwwBfAsMAwALDAO8CwwD/AsMABgDfAiIAAQCPAiIAAQAPAiIALwIiAD8CIgBfAiIAfwIiAO8CIgAGAL8CIQDvAiEAAgBvAiEAfwIhAK8CIQADAC8CIQA/AiEATwIhAAMCwwLDAiICIgIhAiFAHRAcECsQSAOPHAEPHgFPHv8eAjcAFhYAAAASEQgRuAENtvcN+PcNAAlBCQKOAo8AHQAfApACjwAdAB8Cj7L5HR+4AZiyJrsfQRUBlwAeBAEAHwE5ACYBJQAfATgAcwQBAB8BNQAcCAEAHwE0ABwCqwAfATKyHFYfuAEPsiYsH7oBDgAeBAG2H/kc5B/pHLgCAbYf6By7H9cguAQBsh/VHLgCq7Yf1ByJH8kvuAgBsh+8JrgBAbIfuiC4AgG2H7kcOB+tyrgEAbIfgSa4AZqyH34muAGath99HEcfaxy4BAGyH2UmuAGash9ec7gEAUAPH1ImWh9IHIkfRBxiH0BzuAgBth8/HF4fPCa4AZqyHzUcuAQBth8wHLsfKxy4BAG2HyocVh8pHLgBAbIfIx64BAGyH1U3uAFoQCwHlgdYB08HNgcyBywHIQcfBx0HGwcUCBIIEAgOCAwICggICAYIBAgCCAAIFLj/4EArAAABABQGEAAAAQAGBAAAAQAEEAAAAQAQAgAAAQACAAAAAQAAAgEIAgBKALATA0sCS1NCAUuwwGMAS2IgsPZTI7gBClFasAUjQgGwEksAS1RCsDgrS7gH/1KwNytLsAdQW1ixAQGOWbA4K7ACiLgBAFRYuAH/sQEBjoUbsBJDWLkAAQERhY0buQABASiFjVlZABgWdj8YPxI+ETlGRD4ROUZEPhE5RkQ+ETlGRD4ROUZgRD4ROUZgRCsrKysrKysrKysrGCsrKysrKysrKysrGCsdsJZLU1iwqh1ZsDJLU1iw/x1ZS7CTUyBcWLkB8gHwRUS5AfEB8EVEWVi5Az4B8kVSWLkB8gM+RFlZS7gBVlMgXFi5ACAB8UVEuQAmAfFFRFlYuQgeACBFUli5ACAIHkRZWUu4AZpTIFxYuQAlAfJFRLkAJAHyRURZWLkJCQAlRVJYuQAlCQlEWVlLuAQBUyBcWLFzJEVEsSQkRURZWLkXIABzRVJYuQBzFyBEWVlLuAQBUyBcWLHKJUVEsSUlRURZWLkWgADKRVJYuQDKFoBEWVlLsD5TIFxYsRwcRUSxHhxFRFlYuQEaABxFUli5ABwBGkRZWUuwVlMgXFixHBxFRLEvHEVEWVi5AYkAHEVSWLkAHAGJRFlZS7gDAVMgXFixHBxFRLEcHEVEWVi5DeAAHEVSWLkAHA3gRFlZKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKytlQisrAbM7WWNcRWUjRWAjRWVgI0VgsIt2aBiwgGIgILFjWUVlI0UgsAMmYGJjaCCwAyZhZbBZI2VEsGMjRCCxO1xFZSNFILADJmBiY2ggsAMmYWWwXCNlRLA7I0SxAFxFVFixXEBlRLI7QDtFI2FEWbNHUDQ3RWUjRWAjRWVgI0VgsIl2aBiwgGIgILE0UEVlI0UgsAMmYGJjaCCwAyZhZbBQI2VEsDQjRCCxRzdFZSNFILADJmBiY2ggsAMmYWWwNyNlRLBHI0SxADdFVFixN0BlRLJHQEdFI2FEWQBLU0IBS1BYsQgAQllDXFixCABCWbMCCwoSQ1hgGyFZQhYQcD6wEkNYuTshGH4bugQAAagACytZsAwjQrANI0KwEkNYuS1BLUEbugQABAAACytZsA4jQrAPI0KwEkNYuRh+OyEbugGoBAAACytZsBAjQrARI0IAK3R1c3UAGEVpREVpREVpRHNzc3N0dXN0dSsrKyt0dSsrKysrc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3NzcysrK0WwQGFEc3QAAEuwKlNLsD9RWlixBwdFsEBgRFkAS7A6U0uwP1FaWLELC0W4/8BgRFkAS7AuU0uwOlFaWLEDA0WwQGBEWQBLsC5TS7A8UVpYsQkJRbj/wGBEWSsrKysrKysrKysrKysrKysrK3UrKysrKysrQ1xYuQCAAruzAUAeAXQAc1kDsB5LVAKwEktUWrASQ1xaWLoAnwIiAAEAc1kAK3RzASsBcysrKysrKysrc3NzcysAKysrKysrAEVpRHNFaURzRWlEc3R1RWlEc0VpREVpREVpRHN0RWlERWlEcysrKysrcysAK3MrdHUrKysrKysrKysrKysrK3N0dQAAAA==</Resource>
+	</Resources>
+</Aps>
