@@ -31,17 +31,29 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.disable())
 
                 .authorizeHttpRequests(auth -> auth
-                        // Доступ без авторизации
-                        .requestMatchers("/", "/login", "/register", "/api/auth/**", "/css/**", "/js/**").permitAll()
 
-                        // JWT работает ТОЛЬКО для API
+                        // ===== Swagger =====
+                        .requestMatchers(
+                                "/v3/api-docs/**",
+                                "/swagger-ui/**",
+                                "/swagger-ui.html"
+                        ).permitAll()
+
+                        // ===== Публичные страницы (форма логина, статика, API регистрации/логина) =====
+                        .requestMatchers(
+                                "/", "/login", "/register",
+                                "/api/auth/**",
+                                "/css/**", "/js/**"
+                        ).permitAll()
+
+                        // ===== API, защищённые JWT =====
                         .requestMatchers("/api/**").authenticated()
 
-                        // страницы (dashboard и др.) работают через login-форму
+                        // ===== Остальные запросы (страницы UI) =====
                         .anyRequest().authenticated()
                 )
 
-                // ВАЖНО: Подключаем форму логина как было
+                // Форма логина
                 .formLogin(form -> form
                         .loginPage("/login")
                         .defaultSuccessUrl("/dashboard", true)
@@ -49,12 +61,12 @@ public class SecurityConfig {
                         .permitAll()
                 )
 
-                // Управление сессиями — только для страниц
-                .sessionManagement(session -> session
-                        .sessionCreationPolicy(SessionCreationPolicy.ALWAYS)
+                // Сессии — разрешены (для UI)
+                .sessionManagement(session ->
+                        session.sessionCreationPolicy(SessionCreationPolicy.ALWAYS)
                 )
 
-                // Добавляем JWT до UsernamePasswordAuthenticationFilter
+                // JWT фильтр ДО UsernamePasswordAuthenticationFilter
                 .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class)
 
                 .authenticationProvider(authenticationProvider());
