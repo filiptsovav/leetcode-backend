@@ -1,5 +1,19 @@
 package com.example.demo.controller;
 
+import com.example.demo.model.AppUser;
+import com.example.demo.repository.UserRepository;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.context.HttpSessionSecurityContextRepository;
+import org.springframework.web.bind.annotation.*;
 import com.example.demo.dto.AuthRequest;
 import com.example.demo.dto.AuthResponse;
 import com.example.demo.dto.RegisterRequest;
@@ -17,8 +31,11 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 
+
+import java.util.Map;
+
 @RestController
-@RequestMapping("/api/auth")
+@RequestMapping("/auth")
 @Tag(name = "JWT Authentication", description = "Эндпоинты для регистрации и получения JWT-токена")
 public class JwtAuthController {
 
@@ -45,15 +62,24 @@ public class JwtAuthController {
             }
     )
     @PostMapping("/login")
-    public AuthResponse login(@RequestBody AuthRequest request) {
+    public ResponseEntity<?> login(@RequestBody AuthRequest request, HttpServletResponse response) {
+        try {
+            authenticationManager.authenticate(
+                    new UsernamePasswordAuthenticationToken(request.getUsername(), request.getPassword())
+            );
 
-        authenticationManager.authenticate(
-                new UsernamePasswordAuthenticationToken(request.getUsername(), request.getPassword())
-        );
+            String token = jwtUtil.generateToken(request.getUsername());
 
-        String token = jwtUtil.generateToken(request.getUsername());
+            Cookie cookie = new Cookie("jwt", token);
+            cookie.setHttpOnly(true);
+            cookie.setPath("/");
+            cookie.setMaxAge(24 * 60 * 60); // 1 день
+            response.addCookie(cookie);
 
-        return new AuthResponse(token);
+            return ResponseEntity.ok(Map.of("message", "Login successful", "token", token));
+        } catch (Exception e) {
+            return ResponseEntity.status(401).body(Map.of("message", "Invalid username or password"));
+        }
     }
 
 
@@ -66,19 +92,26 @@ public class JwtAuthController {
             }
     )
     @PostMapping("/register")
-    public String register(@RequestBody RegisterRequest request) {
-
+    public ResponseEntity<?> register(@RequestBody RegisterRequest request, HttpServletResponse response) {
         if (userRepository.findByUsername(request.getUsername()) != null) {
-            return "User already exists";
+            return ResponseEntity.status(400).body(Map.of("message", "Username already exists"));
         }
 
-        AppUser user = new AppUser(
-                request.getUsername(),
-                passwordEncoder.encode(request.getPassword())
-        );
-
+        AppUser user = new AppUser(request.getUsername(), passwordEncoder.encode(request.getPassword()));
         userRepository.save(user);
 
-        return "Registered successfully";
+        // Авто-логин после регистрации
+        authenticationManager.authenticate(
+                new UsernamePasswordAuthenticationToken(request.getUsername(), request.getPassword())
+        );
+
+        String token = jwtUtil.generateToken(request.getUsername());
+        Cookie cookie = new Cookie("jwt", token);
+        cookie.setHttpOnly(true);
+        cookie.setPath("/");
+        cookie.setMaxAge(24 * 60 * 60);
+        response.addCookie(cookie);
+
+        return ResponseEntity.ok(Map.of("message", "Registration successful", "token", token));
     }
 }
