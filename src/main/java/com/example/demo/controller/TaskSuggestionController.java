@@ -17,6 +17,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.model.leetCodeApiService.Question;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.time.DayOfWeek;
 import java.time.Duration;
@@ -31,6 +33,8 @@ public class TaskSuggestionController {
 
     @Autowired
     private UserRepository userRepository;
+
+    private static final Logger log = LoggerFactory.getLogger(TaskSuggestionController.class);
 
     @GetMapping("/taskSuggestion")
     public ResponseEntity<?> getTaskSuggestion() {

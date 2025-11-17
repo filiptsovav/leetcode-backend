@@ -30,7 +30,7 @@ import java.util.HashMap;
 @RequestMapping("/statistics")
 public class StatisticsRestController {
 
-    private static final Logger log = LoggerFactory.getLogger(StatisticsController.class);
+    private static final Logger log = LoggerFactory.getLogger(StatisticsRestController.class);
 
     @Autowired
     private LeetCodeApiService leetCodeApiService;

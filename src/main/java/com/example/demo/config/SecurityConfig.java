@@ -14,6 +14,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.security.config.Customizer;
 
 @Configuration
 public class SecurityConfig {
@@ -43,7 +44,7 @@ public class SecurityConfig {
                         // ===== Публичные страницы (форма логина, статика, API регистрации/логина) =====
                         .requestMatchers(
                                 "/", "/login", "/register",
-                                "/api/auth/**",
+                                "/auth/**",
                                 "/css/**", "/js/**"
                         ).permitAll()
 
@@ -64,7 +65,7 @@ public class SecurityConfig {
 
                 // Сессии — разрешены (для UI)
                 .sessionManagement(session ->
-                        session.sessionCreationPolicy(SessionCreationPolicy.ALWAYS)
+                        session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 )
 
                 // JWT фильтр ДО UsernamePasswordAuthenticationFilter
