@@ -20,12 +20,20 @@ import com.example.demo.model.leetCodeApiService.Question;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.tags.Tag;
+
 import java.time.DayOfWeek;
 import java.time.Duration;
 import java.util.List;
 import java.util.Map;
 
+
 @RestController
+@Tag(name = "Task Suggestions", description = "API рекомендаций задач")
 public class TaskSuggestionController {
 
     @Autowired
@@ -36,13 +44,30 @@ public class TaskSuggestionController {
 
     private static final Logger log = LoggerFactory.getLogger(TaskSuggestionController.class);
 
+    @Operation(
+            summary = "Получить рекомендованные задачи",
+            description = "Возвращает список задач, подобранных под пользователя",
+            responses = {
+                    @ApiResponse(
+                            responseCode = "200",
+                            description = "Рекомендованные задачи успешно получены"
+                    ),
+                    @ApiResponse(
+                            responseCode = "500",
+                            description = "Ошибка получения рекомендаций",
+                            content = @Content(
+                                    schema = @Schema(example = "{ \"error\": \"Failed to load recommended tasks\" }")
+                            )
+                    )
+            }
+    )
     @GetMapping("/taskSuggestion")
     public ResponseEntity<?> getTaskSuggestion() {
         log.info("GET /taskSuggestion");
+
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = authentication.getName();
         AppUser appUser = userRepository.findByUsername(username);
-
 
         try {
             List<Question> recommendedTasks = appUser.getRecommendedTasks(leetCodeApiService);

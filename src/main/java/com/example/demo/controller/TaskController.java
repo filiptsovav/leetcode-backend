@@ -28,6 +28,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.model.leetCodeApiService.Question;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.tags.Tag;
 
 import java.time.DayOfWeek;
 import java.time.Duration;
@@ -35,6 +40,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
+@Tag(name = "Task Records", description = "API для записи выполненных задач")
 public class TaskController {
 
     @Autowired
@@ -46,13 +52,38 @@ public class TaskController {
     @Autowired
     private RecordRepository recordRepository;
 
+    @Operation(
+            summary = "Сохранить выполненную задачу",
+            description = "Записывает факт решения задачи пользователем",
+            responses = {
+                    @ApiResponse(
+                            responseCode = "200",
+                            description = "Запись успешно сохранена",
+                            content = @Content(
+                                    mediaType = "application/json",
+                                    schema = @Schema(example = "{ \"success\": true }")
+                            )
+                    ),
+                    @ApiResponse(
+                            responseCode = "400",
+                            description = "Некорректное имя задачи",
+                            content = @Content(
+                                    mediaType = "application/json",
+                                    schema = @Schema(example = "{ \"error\": \"Task does not exist on LeetCode\" }")
+                            )
+                    ),
+                    @ApiResponse(responseCode = "401", description = "Неавторизован"),
+                    @ApiResponse(responseCode = "500", description = "Ошибка сервера")
+            }
+    )
     @PostMapping("/taskChosen")
     @Transactional
     public ResponseEntity<?> submitTask(
-            @RequestParam String taskName,
-            @RequestParam String taskTime,
-            @RequestParam String completionDate,
-            @RequestParam String attemptNumber) {
+            @RequestParam @Schema(example = "two-sum") String taskName,
+            @RequestParam @Schema(example = "15", description = "Время решения в минутах") String taskTime,
+            @RequestParam @Schema(example = "2025-01-26") String completionDate,
+            @RequestParam @Schema(example = "1") String attemptNumber) {
+
 
         try {
             leetCodeApiService.getQuestion(taskName);
