@@ -6,6 +6,7 @@ import com.example.demo.model.AppUser;
 import com.example.demo.repository.UserRepository;
 import com.example.demo.security.JwtUtil;
 
+import jakarta.annotation.security.PermitAll;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletResponse;
 
@@ -54,6 +55,7 @@ public class JwtAuthController {
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody AuthRequest request, HttpServletResponse response) {
         try {
+            // Аутентификация необходима для проверки логина и пароля
             authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(
                             request.getUsername(),
@@ -88,6 +90,7 @@ public class JwtAuthController {
                     @ApiResponse(responseCode = "400", description = "Пользователь уже существует")
             }
     )
+    @PermitAll
     @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody RegisterRequest request, HttpServletResponse response) {
 
@@ -97,6 +100,7 @@ public class JwtAuthController {
             ));
         }
 
+        // 1. Сохраняем пользователя с ХЭШИРОВАННЫМ паролем
         AppUser user = new AppUser(
                 request.getUsername(),
                 passwordEncoder.encode(request.getPassword())
@@ -109,7 +113,8 @@ public class JwtAuthController {
                         request.getPassword()
                 )
         );
-
+        
+        // 3. Сразу генерируем токен для автоматического входа
         String token = jwtUtil.generateToken(request.getUsername());
 
         Cookie cookie = new Cookie("jwt", token);
