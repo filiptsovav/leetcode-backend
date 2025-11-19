@@ -11,6 +11,8 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
+import jakarta.servlet.http.Cookie;
+import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 
@@ -36,6 +38,16 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         // Извлекаем токен
         if (authHeader != null && authHeader.startsWith("Bearer ")) {
             jwt = authHeader.substring(7);
+        } else {
+            Cookie[] cookies = request.getCookies();
+            if (cookies != null) {
+                for (Cookie cookie : cookies) {
+                    if ("jwt".equals(cookie.getName())) {
+                        jwt = cookie.getValue();
+                        break;
+                    }
+                }
+            }
         }
 
         // Безопасный парсинг — чтобы фильтр не падал
