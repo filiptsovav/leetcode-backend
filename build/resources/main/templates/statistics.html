@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: 600;
+            color: #495057;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .chart-container {
+            margin-bottom: 30px;
+            border-radius: 8px;
+            padding: 15px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .charts-row {
+            display: flex;
+            justify-content: space-between;
+        }
+        .small-chart-container {
+            width: 45%;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Statistics</h2>
+    <div class="form-group">
+        <label for="timeframe">Select Period:</label>
+        <select id="timeframe">
+            <option value="week" th:selected="${selectedPeriod == 'week'}">Week</option>
+            <option value="month" th:selected="${selectedPeriod == 'month'}">Month</option>
+            <option value="year" th:selected="${selectedPeriod == 'year'}">Year</option>
+        </select>
+    </div>
+
+    <div class="charts-row">
+        <div class="small-chart-container">
+            <canvas id="avgTimeChart"></canvas>
+        </div>
+        <div class="small-chart-container">
+            <canvas id="firstAttemptChart"></canvas>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="tagsStatsChart"></canvas>
+    </div>
+</div>
+
+<script th:inline="javascript">
+    // Data from Thymeleaf
+    const difficultyStats = JSON.parse([[${difficultyStats}]]);
+    const topicStats = JSON.parse([[${topicStats}]]);
+    const dayOfWeekStats = JSON.parse([[${dayOfWeekStats}]]);
+    const avgTimeData = JSON.parse([[${avgTime}]]);
+    const firstAttemptData = JSON.parse([[${firstAttempt}]]);
+
+    // Debugging
+    console.log("Difficulty Stats:", difficultyStats);
+    console.log("Topic Stats:", topicStats);
+    console.log("Average Time Data:", avgTimeData);
+    console.log("First Attempt Data:", firstAttemptData);
+
+    // Charts
+    const ctxAvgTime = document.getElementById('avgTimeChart').getContext('2d');
+    const ctxFirstAttempt = document.getElementById('firstAttemptChart').getContext('2d');
+    const ctxTagsStats = document.getElementById('tagsStatsChart').getContext('2d');
+
+    let avgTimeChart, firstAttemptChart, tagsStatsChart;
+
+    function renderCharts() {
+        // Destroy old charts before re-rendering
+        if (avgTimeChart) avgTimeChart.destroy();
+        if (firstAttemptChart) firstAttemptChart.destroy();
+        if (tagsStatsChart) tagsStatsChart.destroy();
+
+        // Average time chart
+        avgTimeChart = new Chart(ctxAvgTime, {
+            type: 'pie',
+            data: {
+                labels: ['Easy', 'Medium', 'Hard'],
+                datasets: [{
+                    data: avgTimeData,
+                    backgroundColor: ['#2ecc71', '#f1c40f', '#e74c3c'],
+                }]
+            }
+        });
+
+        // First attempt chart
+        firstAttemptChart = new Chart(ctxFirstAttempt, {
+            type: 'doughnut',
+            data: {
+                labels: ['First Attempt', 'Not First Attempt'],
+                datasets: [{
+                    data: firstAttemptData,
+                    backgroundColor: ['#3498db', '#95a5a6'],
+                }]
+            }
+        });
+
+        // Topic statistics chart
+        const topicLabels = Object.keys(topicStats);
+        const topicData = Object.values(topicStats);
+        tagsStatsChart = new Chart(ctxTagsStats, {
+            type: 'bar',
+            data: {
+                labels: topicLabels,
+                datasets: [{
+                    label: 'Number of Solutions',
+                    data: topicData,
+                    backgroundColor: '#8e44ad',
+                }]
+            },
+            options: {
+                scales: {
+                    y: { beginAtZero: true }
+                }
+            }
+        });
+    }
+
+    function updateStatistics() {
+        const timeframe = document.getElementById('timeframe').value;
+        console.log("Selected timeframe:", timeframe);
+        // Logic to load data can be added here if necessary
+        renderCharts();
+    }
+
+    window.onload = function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        const selectedPeriod = urlParams.get('timeframe') || 'week'; // Default value
+        document.getElementById('timeframe').value = selectedPeriod;
+        renderCharts();
+    };
+</script>
+<script>
+    document.getElementById('timeframe').addEventListener('change', function () {
+        const selectedPeriod = this.value;
+        window.location.href = `/statistics?timeframe=${selectedPeriod}`;
+    });
+</script>
+</body>
+</html>

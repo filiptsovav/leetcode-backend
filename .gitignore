@@ -38,6 +38,7 @@ obj/
 
 # === IDE ===
 .vscode/
+.gradle/
 .idea/
 *.swp
 *~

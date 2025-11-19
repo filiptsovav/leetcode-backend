@@ -9,7 +9,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.tags.Tag;
+
 @Controller
+@Tag(name = "User Pages", description = "HTML страницы для отображения данных пользователя")
 public class UserController {
 
     private static final Logger log = LoggerFactory.getLogger(UserController.class);
@@ -17,10 +24,20 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
+    @Operation(
+            summary = "Просмотр профиля пользователя",
+            description = "Возвращает HTML-страницу с данными пользователя",
+            responses = {
+                    @ApiResponse(responseCode = "200", description = "Страница успешно загружена"),
+                    @ApiResponse(responseCode = "404", description = "Пользователь не найден")
+            }
+    )
     @GetMapping("/users/{username}")
-    public String getAllRecordsByUser(Model model, @PathVariable String username) {
-        log.info("GET /users/{}", username);
+    public String getAllRecordsByUser(
+            Model model,
+            @PathVariable @Schema(example = "john_doe") String username) {
 
+        log.info("GET /users/{}", username);
         AppUser user = userRepository.findByUsername(username);
 
         if (user == null) {
@@ -29,19 +46,26 @@ public class UserController {
         }
 
         model.addAttribute("user", user);
-
-        log.info("Пользователь {} найден. Отображаем страницу.", username);
         return "user";
     }
 
+
+    @Operation(
+            summary = "Создать нового пользователя",
+            description = "Добавляет нового пользователя в систему и перенаправляет на дашборд",
+            responses = {
+                    @ApiResponse(responseCode = "302", description = "Успешно создано, перенаправлено"),
+            }
+    )
     @PostMapping("/add")
-    public String makeNewRecord(@RequestParam String username, @RequestParam String content) {
+    public String makeNewRecord(
+            @RequestParam @Schema(example = "john_doe") String username,
+            @RequestParam @Schema(example = "some text") String content) {
+
         log.info("POST /add — создание пользователя {}", username);
 
         AppUser newUser = new AppUser(username, content);
         userRepository.save(newUser);
-
-        log.info("Пользователь {} успешно создан", username);
 
         return "redirect:/dashboard";
     }
