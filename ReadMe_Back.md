@@ -12,22 +12,28 @@ API коммуникация: REST API между фронтендом и бэк
 ## Роли пользователей и варианты использования
 ### Роли:
 1. **Гость** — может просматривать публичную информацию.
-<img width="766" height="817" alt="image" src="https://github.com/lesiayarm/leetcode_project/tree/main/UMLDiagrams/Guest.svg" />
+
+![guest](UMLDiagrams/Guest.svg)
+
 2. **Авторизованный пользователь** — имеет доступ к личному кабинету и базовым функциям.
-   <img width="766" height="817" alt="image" src="https://github.com/lesiayarm/leetcode_project/tree/main/UMLDiagrams/User.svg" />
+
+![user](UMLDiagrams/User.svg)
+
 3. **Администратор** — управляет пользователями, контентом и настройками системы.
-   <img width="766" height="817" alt="image" src="https://github.com/lesiayarm/leetcode_project/tree/main/UMLDiagrams/Admin.svg" />
+
+![admin](UMLDiagrams/Admin.svg)
 
 ### Диаграмма вариантов использования:
-![Use Case Diagram](https://github.com/lesiayarm/leetcode_project/tree/main/UMLDiagrams)
-<img width="766" height="817" alt="image" src="https://github.com/lesiayarm/leetcode_project/tree/main/UMLDiagrams/MainDiag.svg" />
+
+![Use Case Diagram](UMLDiagrams/MainDiag.svg)
 
 
 
 
 ## Схема базы данных
 ### ER-диаграмма:
-![ER Diagram](link/to/er-diagram.png)
+
+![ER-diagram](ER-d.png)
 
 ## API
 ### Основные endpoints:
@@ -36,4 +42,18 @@ API коммуникация: REST API между фронтендом и бэк
 - `PUT /api/users/{id}` — обновление данных пользователя
 - `DELETE /api/users/{id}` — удаление пользователя
 
-Полная документация API доступна по ссылке: [Swagger UI](http://localhost:8000/docs)
+
+## Запуск документации API через  Swagger
+### Сборка
+
+```bash
+    ./gradlew build
+```
+
+### Запуск
+
+```bash
+    ./gradlew bootRun
+```
+
+После этого идем на [http://localhost:8080/swagger-ui/index.html#/]() и любуемся документацией.
