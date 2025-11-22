@@ -60,9 +60,11 @@ public class SecurityConfig {
         // Разрешённые origin'ы для разработки. Добавь/измени по необходимости.
         configuration.setAllowedOriginPatterns(Arrays.asList(
                 "http://localhost:5173",    // Vite (default)
-                "http://127.0.0.1:5173",
+                "http://100.90.167.69:5173",
                 "http://localhost:3000",    // React dev server (если используешь)
-                "http://127.0.0.1:3000"
+                "http://100.90.167.69:3000",
+                "http://100.*.*.*:*",
+                "http://10.*.*.*:*"
         ));
 
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
