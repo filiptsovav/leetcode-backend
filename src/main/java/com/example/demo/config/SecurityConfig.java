@@ -91,6 +91,8 @@ public class SecurityConfig {
             .authorizeHttpRequests(auth -> auth
                     // публичные эндпоинты (регистрация/логин, swagger/openapi если нужно)
                     .requestMatchers("/auth/**", "/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
+                    // сообщеньки
+                    .requestMatchers("/ws/**", "/ws").permitAll()
                     // остальные требуют аутентификации
                     .anyRequest().authenticated()
             )
