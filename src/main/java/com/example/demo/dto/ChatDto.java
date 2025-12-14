@@ -42,4 +42,11 @@ public class ChatDto {
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
+
+    private boolean isAnnouncement; // Добавь поле
+
+    // ... users, getters, setters ...
+    
+    public boolean getIsAnnouncement() { return isAnnouncement; }
+    public void setIsAnnouncement(boolean isAnnouncement) { this.isAnnouncement = isAnnouncement; }
 }

@@ -14,6 +14,9 @@ public class Message {
     private AppUser sender;
 
     @ManyToOne
+    private AppUser target; // <-- новый (nullable)
+
+    @ManyToOne
     private Chat chat;
 
     @Column(columnDefinition = "text")
@@ -24,7 +27,6 @@ public class Message {
     private boolean delivered = false;
     private boolean read = false;
 
-    // constructors, getters, setters
     public Message() {}
     public Message(AppUser sender, Chat chat, String text) {
         this.sender = sender;
@@ -33,8 +35,18 @@ public class Message {
         this.createdAt = LocalDateTime.now();
     }
 
+    public Message(AppUser sender, AppUser target, Chat chat, String text) {
+        this.sender = sender;
+        this.target = target;
+        this.chat = chat;
+        this.text = text;
+        this.createdAt = LocalDateTime.now();
+    }
+
     public Long getId() { return id; }
     public AppUser getSender() { return sender; }
+    public AppUser getTarget() { return target; }
+    public void setTarget(AppUser target) { this.target = target; }
     public Chat getChat() { return chat; }
     public String getText() { return text; }
     public LocalDateTime getCreatedAt() { return createdAt; }

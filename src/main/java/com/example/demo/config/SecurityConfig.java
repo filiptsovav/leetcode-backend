@@ -79,26 +79,55 @@ public class SecurityConfig {
         return source;
     }
 
-    // Основной security filter chain
+
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
         http
-            .cors(cors -> cors.configurationSource(corsConfigurationSource())) // подключаем CORS
-            .csrf(csrf -> csrf.disable()) // для JWT обычно CSRF отключают
-            .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)) // stateless
-            .authenticationProvider(authenticationProvider()) // наш DaoAuthenticationProvider
+            .cors(cors -> cors.configurationSource(corsConfigurationSource()))
+            .csrf(csrf -> csrf.disable())
+            .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+            .authenticationProvider(authenticationProvider())
             .authorizeHttpRequests(auth -> auth
-                    // публичные эндпоинты (регистрация/логин, swagger/openapi если нужно)
-                    .requestMatchers("/auth/**", "/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
-                    // сообщеньки
-                    .requestMatchers("/ws/**", "/ws").permitAll()
-                    // остальные требуют аутентификации
-                    .anyRequest().authenticated()
+                // публичные эндпоинты
+                .requestMatchers("/auth/**", "/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
+
+                // критично: разрешаем SockJS / websocket static endpoints и iframe/jsonp/info
+                // это нужно, чтобы SockJS transport (iframe/jsonp/eventsource) мог загрузить свои ресурсы
+                .requestMatchers("/ws/**").permitAll()
+
+                // остальные требуют аутентификации
+                .anyRequest().authenticated()
             )
-            // добавляем фильтр JWT перед UsernamePasswordAuthenticationFilter
+            // ВАЖНО: отключаем frameOptions чтобы iframe от sockjs не блокировался
+            .headers(headers -> headers.frameOptions().disable())
+
+            // добавляем JWT фильтр как раньше
             .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
     }
+
+    // // Основной security filter chain
+    // @Bean
+    // public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+
+    //     http
+    //         .cors(cors -> cors.configurationSource(corsConfigurationSource())) // подключаем CORS
+    //         .csrf(csrf -> csrf.disable()) // для JWT обычно CSRF отключают
+    //         .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)) // stateless
+    //         .authenticationProvider(authenticationProvider()) // наш DaoAuthenticationProvider
+    //         .authorizeHttpRequests(auth -> auth
+    //                 // публичные эндпоинты (регистрация/логин, swagger/openapi если нужно)
+    //                 .requestMatchers("/auth/**", "/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
+    //                 // сообщеньки
+    //                 .requestMatchers("/ws/**", "/ws").permitAll()
+    //                 // остальные требуют аутентификации
+    //                 .anyRequest().authenticated()
+    //         )
+    //         // добавляем фильтр JWT перед UsernamePasswordAuthenticationFilter
+    //         .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
+
+    //     return http.build();
+    // }
 }

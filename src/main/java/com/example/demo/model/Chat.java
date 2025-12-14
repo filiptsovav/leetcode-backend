@@ -15,6 +15,8 @@ public class Chat {
     // Для публичного чата можно хранить флаг isPublic
     private boolean isPublic = false;
 
+    private boolean isAnnouncement = false;
+
     @ManyToMany
     @JoinTable(
         name = "chat_users",
@@ -35,6 +37,8 @@ public class Chat {
     public List<AppUser> getUsers() { return users; }
     public List<Message> getMessages() { return messages; }
     public LocalDateTime getCreatedAt() { return createdAt; }
+    public boolean isAnnouncement() { return isAnnouncement; }
+    public void setAnnouncement(boolean announcement) { isAnnouncement = announcement; }
 }
 
 
