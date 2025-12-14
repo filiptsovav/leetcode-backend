@@ -42,6 +42,29 @@ API коммуникация: REST API между фронтендом и бэк
 - `PUT /api/users/{id}` — обновление данных пользователя
 - `DELETE /api/users/{id}` — удаление пользователя
 
+## Advanced Search API
+
+### GET /api/tasks/search
+
+Allows full-text search on task names and filtering by metadata.
+
+**Parameters:**
+
+| Parameter  | Type    | Description                                      | Example |
+|------------|---------|--------------------------------------------------|---------|
+| `query`    | string  | Partial text match for Task Name (case-insensitive) | `Sum`   |
+| `dateFrom` | string  | Start date (ISO format)                          | `2023-01-01` |
+| `dateTo`   | string  | End date (ISO format)                            | `2023-12-31` |
+| `minTries` | integer | Minimum number of attempts                       | `1`     |
+| `maxTries` | integer | Maximum number of attempts                       | `5`     |
+| `sortBy`   | string  | Field to sort by (`date`, `taskName`, `tryCounter`)| `date` |
+| `sortDir`  | string  | Sort direction (`asc`, `desc`)                   | `desc`  |
+| `page`     | integer | Page number (0-based)                            | `0`     |
+| `size`     | integer | Items per page                                   | `10`    |
+
+**Response:**
+Returns a paginated list of `TaskRecord` objects.
+
 
 ## Запуск документации API через  Swagger
 ### Сборка
