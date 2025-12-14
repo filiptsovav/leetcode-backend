@@ -3,21 +3,28 @@ package com.example.demo.model;
 import java.time.Duration;
 import java.time.LocalDateTime;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import jakarta.persistence.Column; // <-- Добавили импорт
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 
 @Entity
 public class TaskRecord {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    
     private String taskName;
+
+    @Column(columnDefinition = "TEXT") 
+    private String content; 
 
     private LocalDateTime date;
     private Duration duration;
-
     private Integer tryCounter;
 
     public TaskRecord() {}
@@ -28,6 +35,26 @@ public class TaskRecord {
         this.duration = duration;
         this.tryCounter = tryCounter;
     }
+
+    @ManyToOne
+    @JsonIgnore // Чтобы не зацикливало JSON при ответе
+    private AppUser user;
+
+    public AppUser getUser() { return user; }
+    public void setUser(AppUser user) { this.user = user; }
+    // --------------------
+
+    // --- Геттеры и сеттеры для content ---
+    public String getContent() {
+        return content;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+    // -------------------------------------
+
+    public Long getId() { return id; } // Полезно добавить, если не было
 
     public String getTaskName() {
         return taskName;
